@@ -1,0 +1,11 @@
+2023-07-21 21:29:48.170 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-21 21:29:48.170 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-21 21:29:48.170 [info] Test server listening.
+2023-07-21 21:29:48.191 [info] > ./newenv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-21 21:29:48.481 [info] Python interpreter path: ./newenv/bin/python
+2023-07-21 21:29:49.605 [info] Starting Pylance language server.
+2023-07-21 22:40:25.485 [info] Discover tests for workspace name: uddam - uri: /home/uddam/storefront/wsgi.py
+2023-07-21 22:40:25.503 [info] > . ./newenv/bin/activate && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/printEnvVariables.py
+2023-07-21 22:40:25.503 [info] shell: bash
+2023-07-21 22:40:25.551 [info] > ./newenv/bin/python ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/testing_tools/run_adapter.py discover pytest -- --rootdir . -s --cache-clear .
+2023-07-21 22:40:25.551 [info] cwd: .

@@ -1,0 +1,21 @@
+import { Interfaces } from '@oclif/core';
+export declare const oneDay: number;
+export declare const herokuGet: (resource: string, ctx: {
+    config: Interfaces.Config;
+}) => Promise<string[]>;
+export declare const AppCompletion: Interfaces.Completion;
+export declare const AppAddonCompletion: Interfaces.Completion;
+export declare const AppDynoCompletion: Interfaces.Completion;
+export declare const BuildpackCompletion: Interfaces.Completion;
+export declare const DynoSizeCompletion: Interfaces.Completion;
+export declare const FileCompletion: Interfaces.Completion;
+export declare const PipelineCompletion: Interfaces.Completion;
+export declare const ProcessTypeCompletion: Interfaces.Completion;
+export declare const RegionCompletion: Interfaces.Completion;
+export declare const RemoteCompletion: Interfaces.Completion;
+export declare const RoleCompletion: Interfaces.Completion;
+export declare const ScopeCompletion: Interfaces.Completion;
+export declare const SpaceCompletion: Interfaces.Completion;
+export declare const StackCompletion: Interfaces.Completion;
+export declare const StageCompletion: Interfaces.Completion;
+export declare const TeamCompletion: Interfaces.Completion;

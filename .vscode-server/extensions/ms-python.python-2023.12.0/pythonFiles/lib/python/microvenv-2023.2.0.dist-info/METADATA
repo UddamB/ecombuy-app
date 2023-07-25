@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: microvenv
+Version: 2023.2.0
+Summary: A minimal re-implementation of Python's venv module
+Project-URL: source, https://github.com/brettcannon/microvenv
+Project-URL: changelog, https://github.com/brettcannon/microvenv/releases
+Author-email: Brett Cannon <brett@python.org>
+Maintainer-email: Brett Cannon <brett@python.org>
+License: MIT License
+        
+        Copyright (c) 2023 Brett Cannon
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+License-File: LICENSE
+Keywords: venv,virtual environments
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Provides-Extra: lint
+Requires-Dist: black; extra == 'lint'
+Requires-Dist: ruff; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest; extra == 'test'
+Description-Content-Type: text/markdown
+
+# microvenv
+
+Create a minimal virtual environment.
+
+This module is meant for when the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) has been removed from the standard library by your Python distribution. Because `venv` is not available on PyPI and is developed in the stdlib, it is not possible to install it using `pip` or simply copy the code and expect it to work with older versions of Python. This module then attempts to be that portable alternative for creating virtual environments.
+
+In general, though, using the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv) should be preferred and this module is only used as a fallback.
+
+
+## Usage
+
+```console
+python microvenv.py [env_dir=".venv"]
+```
+
+If an argument is provided to the script, it is used as the path to create the virtual environment in. Otherwise, the virtual environment is created in `.venv`.
+
+For programmatic usage, there is the `create()` function, which is analogous to the [`venv.create()` function](https://docs.python.org/3/library/venv.html#venv.create).
+
+```python
+def create(env_dir: os.PathLike[str] | str = ".venv") -> None
+```
+
+The `microvenv.py` file is also small enough to have its contents passed in via the `-c` flag to `python`.
+
+## Differences compared to the [`venv` module](https://docs.python.org/3/library/venv.html#module-venv)
+
+The module operates similarly to `py -m venv --symlinks --without-pip .venv`,
+except that:
+
+- There are no activation scripts (you can execute `python` in the virtual environment directly)
+- Windows is not supported

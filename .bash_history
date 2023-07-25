@@ -1,0 +1,896 @@
+sudo apt update && sudo apt upgrade
+python3 --version
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install python3.9
+python3.9 --version
+sudo rm /usr/bin/python3
+sudo ln -s python3.9 /usr/bin/python3
+python3 --versionInstall pip and pipenvsudo apt install python3-pip pipenvVerify that pip and pipenv are successfully installed.pip --versionpipenv --version
+python3 --version
+sudo apt install python3-pip pipenv
+pip --version
+pipenv --version
+pip install 
+sudo apt update
+sudo apt install python3-pip
+pip install pipenv
+pip install --user pipenv
+sudo apt install python3.9-dev 
+sudo apt install libmysqlclient-dev
+pip install mysqlclient
+sudo apt update && sudo apt upgrade
+python3 --version
+sudo apt install python3-pip pipenv
+pip --version
+pipenv --version
+sudo apt install python3-pip
+pip --version
+pip
+sudo apt install python3.9-dev
+sudo apt install libmysqlclient-dev
+pip install mysqlclient
+sudo apt-get install python3-distutils
+sudo apt-get install python3-apt
+sudo apt-get install --reinstall pip
+pip --version
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get update
+sudo apt install python3.7-distutils
+pip --version
+sudo dpkg -i --force-overwrite /var/cache/apt/archives/python3.7-distutils_3.7.9-1+focal1_all.deb
+sudo apt-get -f install 
+sudo apt install python3-distutils
+python3.7 -m pip3 -V
+sudo cp -r /usr/lib/python3.8/distutils /usr/lib/python3.7/distutils
+python3.7 -m pip -V
+pip --version
+sudo apt-get install python3-distutils
+get-pip.py
+python3.x -m pip
+python3.9 get-pip.py --isolated
+python3.9 get-pip.py --target <sys.path>
+python3.9 get-pip.py --target
+python3.9 get-pip.py --target<sys.path>
+sudo apt-get install python3.10-distutils
+sudo apt-get install --reinstall python3.7-distutils
+pip --version
+sudo apt update
+sudo apt install python3-distutils
+sudo apt install python3-apt
+sudo apt install python3.9-distutils
+pip --version
+pipenv --version
+sudo apt install python3.9-dev
+sudo apt install libmysqlclient-dev
+pip install mysqlclient
+sudo apt-get install libmysqlclient-dev
+RUN apt-get update && apt-get install -y
+brew install pkg-config
+brew install mysql
+apt-get install -y pkg-config
+y
+sudo apt-get install -y tcl tk
+pip install mysqlclient
+rew install mysql pkg-config
+brew install mysql pkg-config
+brew install pkg-config
+Closing!
+brew install mysql
+a
+pkg-config --exists mariadb
+pkg-config --exists mysqlclient
+sudo apt-get install -y pkg-config
+pip install mysqlclient
+sudo apt install mysql-server
+mysql --version
+sudo service mysql start
+sudo mysql -u root -p
+pipenv install
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py migrate 
+python manage.py migrate
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+exit
+pipenv shell
+pipenv install
+sudo mysql -u root -p 
+pipenv install
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py migrate
+python storefront3/manage.py migrate
+sudo pip install virtualenv
+sudo pip3 install virtualenv
+virtualenv newenv
+source newenv/bin/activate
+pip install django
+django-admin --version
+python manage.py migrate
+deactivate
+python manage.py migrate
+pipenv shell
+python manage.py migrate
+pipenv install
+pipenv shell 
+python manage.py migrate
+sudo mysql -u root -p
+pipenv install
+pipenv shell
+python manage.py migrate
+a
+python --version
+sudo apt install python3.9-dev
+python manage.py migrate
+sudo apt install libmysqlclient-dev
+pip install mysqlclient
+sudo apt install mysql-server
+mysql --version
+sudo service mysql start
+sudo mysql -u root -p
+CREATE DATABASE storefront3;
+sudo mysql -u root -p
+pipenv install
+pipenv shell
+python manage.py migrate 
+python manage.py seed_db
+python manage.py runserver
+sudo pip install virtualenv
+sudo pip3 install virtualenv
+mkdir ~/newproject
+cd ~/newproject
+virtualenv newenv
+source newenv/bin/activate
+pip install django
+django-admin --version
+python manage.py migrate
+python manage.py migratea
+python manage.py migrate
+sudo apt update && sudo apt upgrade
+python3 --version
+sudo apt install python3-pip pipenv
+pip --version
+pipenv --version
+sudo apt install python3.9-dev
+sudo apt install libmysqlclient-dev
+pip install mysqlclient
+sudo apt install mysql-server
+mysql --version
+sudo service mysql start
+sudo mysql -u root -p
+pipenv install
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py migrate
+pip install django
+python manage.py migrate
+pip install storefront
+pip install store
+pip 3 list
+pip3 list
+pip2 list
+pip install -r requirements.txt
+python manage.py migrate
+pip install django-filter
+python manage.py migrate
+pip install corsheaders
+pip install corsheader
+pip3 install django-cors-headers
+python manage.py migrate
+pip3 install djangorestframework
+python manage.py migrate
+pip install djoser
+python manage.py migrate
+pip install django-debug-toolbar
+python manage.py migrate
+pip install mysqlclient
+pip3 install mysqlclient
+python manage.py migrate
+pip install drf-nested-routers
+python manage.py migrate
+pipenv install mysqlclient==2.1.0
+python manage.py migrate
+pipenv install
+python manage.py migrate
+pipenv install mysqlclient
+python manage.py migrate
+pipenv install 
+pipenv shell
+python manage.py migrate
+python manage.py seed_db
+python -m pip install Pillow
+python manage.py migrate
+python manage.py seed_db
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py migrate
+python maanage.py migrate
+python manage.py migrate
+sudo service mysql status
+sudo chmod -R 755 /var/run/mysqld
+sudo service mysql restart
+python manage.py migrate
+python manage.py seed_db
+python manage.py runserver
+pipenv install celery
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py runserver
+sudo service mysql status
+sudo service mysql status
+sudo mysql -u root -p
+sudo service mysql start
+python manage.py runserver
+sudo mysql -u root -p
+pipenv install
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py migrate
+manage.py makemigrations
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+pipenv install celery
+celery -A storefront worker --loglevel=info
+docker run -d -p 6379:6379 redis
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+celery -A storefront worker --loglevel=info
+pip install Redis
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+sudo apt-get install redis-server
+celery -A storefront worker --loglevel=info
+pipenv shell
+. /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+python --version
+celery
+celery -A
+pipenv install celery
+celery -A
+celery -A storefront worker --loglevel=info
+pip install djangorestframework-filters
+celery -A storefront worker --loglevel=info
+pip install django-filter
+pip install django-utils-six
+celery -A storefront worker --loglevel=info
+django --version
+python django --version
+python -m django --version
+pip install django-filter
+python -m django-filter --version
+python -m filter --version
+python -m django --version
+celery -A storefront worker --loglevel=info
+pip install django-cors-headers
+celery -A storefront worker --loglevel=info
+pip install djoser
+celery -A storefront worker --loglevel=info
+pip install django-debug-toolbar
+pip install drf-nested-routers
+celery -A storefront worker --loglevel=info
+pip install Redis
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+/home/uddam/newenv/bin/activateredis_server.REDIS_SERVER_PATH --daemonize yes
+yesredis_server.REDIS_SERVER_PATH --daemonize yes
+redis_server.REDIS_SERVER_PATH --daemonize yes
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+pipenv shell
+. /home/uddam/newenv/bin/activate
+sudo apt-get install redis-server
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+pipenv shell
+. /home/uddam/newenv/bin/activate
+sudo apt-get install redis-server
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+. /home/uddam/newenv/bin/activate
+pip3 install --user django-crispy-forms
+source env/bin/activate
+pipenv shel
+y
+pipenv shell
+pip3 install --user django-crispy-forms
+quit
+exit
+pip3 install --user django-crispy-forms
+pipenv shell
+pip3 install --user django-crispy-forms
+source /home/uddam/newenv/bin/activate
+pip3 install --user django-crispy-forms
+source env/bin/activate
+source .virtualenvs/bin/activate
+pip install django-crispy-forms
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+sudo apt-get install redis-server
+sudo service redis-server start
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+python -m pip install Pillow
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+celery -A storefront beat
+source /home/uddam/newenv/bin/activate
+pipenv install flower
+celery -A storefront flower
+source /home/uddam/newenv/bin/activate
+celery -A storefront flower
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+pipenv shell
+. /home/uddam/newenv/bin/activate
+pipenv install --dev pytest
+python --version
+python -m django --version
+pipenv install --dev pytest-django
+pytest
+source /home/uddam/newenv/bin/activate
+/home/uddam/newenv/bin/python
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+python manage.py runserver
+sudo apt-get install redis-server
+sudo service redis-server start
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+celery -A storefront worker --loglevel=info
+source /home/uddam/newenv/bin/activate
+celery -A storefront flower
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+python pytest
+pytest
+sudo apt search python3-pytest
+python3-pytest
+python-pytest
+pytest
+pytest testing/
+pytest testing
+pytest --version
+pip install -U pytest
+pytest --version
+pytest
+source /home/uddam/newenv/bin/activate
+pip install djangorestframework
+pytest
+source /home/uddam/newenv/bin/activate
+sudo service mysql status
+sudo service mysql restart
+sudo service mysql status
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+pytest
+pip3 install --user django-crispy-forms
+pip install django-crispy-forms
+pytest
+sudo service mysql restart
+pytest
+pipenv install --dev pytest-watch
+ptw
+pytest
+pytest --collect-only
+pipenv shell
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+pytest
+source /home/uddam/newenv/bin/activate
+pytest --collect-only
+source /home/uddam/newenv/bin/activate
+pytest
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+python manage.py runserver
+pytest
+python manage.py runserver
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+pipenv shell
+. /home/uddam/newenv/bin/activate
+pip install djangorestframework
+pytest
+ptw
+pytest
+pytest store/tests
+pytest store
+pytest storefront
+pytest store
+pytest
+pip install djangorestframework
+pip install django-filter
+python manage.py runserver
+pytest
+python manage.py runserver
+sudo apt-get install redis-server
+sudo service redis-server start
+celery -A storefront worker --loglevel=info
+pipenv shell
+celery -A storefront flower
+sudo service mysql restart
+python manage.py runserver
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+ptest
+pytest
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+export DJANGO_SETTINGS_MODULE=mysite.settings
+pipenv shell
+. /home/uddam/newenv/bin/activate
+export DJANGO_SETTINGS_MODULE=mysite.settings
+pytest
+python manage.py shell
+pytest
+export PYTHONPATH=$PYTHONPATH:$PWD
+django-admin.py
+python manage.py runserver --settings folder.filename
+django-admin runserver
+manage.py runserver
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+manage.py runserver
+python manage.py runserver
+export PYTHONPATH=$PYTHONPATH:$PWD
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+export DJANGO_SETTINGS_MODULE=storefront.settings
+pytest
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+pytest
+git commit --no-verify
+.git
+git
+git help git
+source /home/uddam/newenv/bin/activate
+pipenv install --dev locust
+python manage.py runserver
+ptw
+pipenv install --dev pytest-watch
+ptw
+source /home/uddam/newenv/bin/activate
+pytest
+pipenv install --dev model_bakery
+pytest
+pipenv install --dev locust
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+python manage.py runserver
+pytest
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+locust -f locustfiles/browse_products.py
+pipenv install --dev locust
+locust -f locustfiles/browse_products.py
+source /home/uddam/newenv/bin/activate
+python manage.py changepassword <uddam>
+python manage.py changepassword
+python manage.py changepassword <mosh>
+python manage.py changepassword
+python manage.py createsuperuser
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+python manage.py runserver
+pytest
+locust -f locustfiles/browse_products.py
+source /home/uddam/newenv/bin/activate
+pipenv install --dev django-silk
+python manage.py migrate
+python manage.py makemigrations
+pip install django-silk
+python manage.py makemigrations
+python manage.py migrate
+source /home/uddam/newenv/bin/activate
+locust -f locustfiles/browse_products.py
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+pipenv shell
+source /home/uddam/newenv/bin/activate
+pip install django-silk
+python manage.py runserver
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+docker
+docker ps
+$ sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+sudo service mysql restart
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+sudo apt-get install redis-server
+sudo service redis-server start
+locust -f locustfiles/browse_products.py
+source /home/uddam/newenv/bin/activate
+docker run -d -p 6379:6379 redis
+docker ps -a
+sudo usermod -aG docker ${USER}
+su -s {USER}
+su -s{USER}
+docker login -p
+docker login --password
+docker login -p localhost:3000
+docker login -u localhost:3000
+sudo usermod -aG docker ${USER}
+su -s {USER}
+sudo -i  
+source /home/uddam/newenv/bin/activate
+sudo -i {USER}
+sudi -i {Sincity}
+sudi -i {uddam}
+sudi -i {USER}
+sudo -i {USER}
+sudo apt-get update
+sudo -s
+sudo -i {USER}
+su -s ${USER}
+docker run -d -p 6379:6379 redis
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+su -s ${USER}
+sudo chsh -s /bin/bash root
+sudo sudo -i {USER}
+sudo -i {USER}
+echo $SHELL
+sudo chsh -s /bin/bash root
+su -s ${USER}
+sudo vipw
+su -s ${USER}
+docker run hello-world
+docker run -d -p 6379:6379 redis
+pipenv install django-redis
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+pytest
+python manage.py runserver
+python manage.py runserver
+sudo service redis-server start
+python manage.py runserver
+locust -f locustfiles/browse_products.py
+docker ps
+docker exec -it df34c redis-cli
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+sudo service mysql restart
+sudo service redis-server start
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+source /home/uddam/newenv/bin/activate
+python manage.py collectstatic
+pytest
+python manage.py runserver
+python manage.py collectstatic
+source /home/uddam/newenv/bin/activate
+pipenv install whitenoise
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+sudo service mysql restart
+sudo service redis-server start
+pytest
+source /home/uddam/newenv/bin/activate
+pytest
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pytest
+pipenv install gunicorn
+gunicorn storefront.wsgi
+source /home/uddam/newenv/bin/activate
+pipenv shell
+. /home/uddam/newenv/bin/activate
+sudo service mysql restart
+sudo service redis-server start
+pytest
+python manage.py runserver
+git init
+git add .
+git commit -m "Initial commit"
+git config --global user.email "Uddamsingh14@gmail.com"
+git config --global user.name "Sincity231"
+git commit -m "Initial commit"
+git log --oneline
+q
+heroku --version
+. /home/uddam/newenv/bin/activate
+heroku --version
+python manage.py runserver
+heroku --version
+curl https://cli-assets.heroku.com/install.sh | sh
+heroku --version
+where heroku
+heroky
+heroku
+heroku --version
+curl https://cli-assets.heroku.com/install.sh
+heroku version
+heroku --version
+-v heroku
+heroku -v heroku
+rm -f
+command -v heroku
+heroku version
+heroku --version
+curl https://cli-assets.heroku.com/install-ubuntu.sh
+heroku --version
+heroku login
+heroku --version
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+heroku --version
+apt-get
+apt-get update
+heroku login
+heroku --version
+git --version
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+heroku --version
+npm install -g heroku
+heroku --version
+npm install -g npm@9.8.0
+heroku --version
+curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
+heroku --version
+RUN mkdir -p /usr/local/lib &&     cd /usr/local/lib &&     curl https://cli-assets.heroku.com/heroku-linux-x64.tar.gz | tar xz &&     rm heroku/bin/node &&     ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku &&     heroku version
+mkdir -p /usr/local/lib && cd /usr/local/lib && curl https://cli-assets.heroku.com/heroku-linux-x64.tar.gz | tar xz &&  rm heroku/bin/node && ln -s /usr/local/lib/heroku/bin/heroku /usr/local/bin/heroku &&  heroku version
+heroku --version
+pipenv shell
+python manage.py runserver
+exit
+source /home/uddam/newenv/bin/activate
+pipenv shell
+python manage.py runserver
+heroku --versio
+heroku --version
+heroku login
+heroku create ecombuy-prod
+heroku config:set SECRET_KEY='zwe=d&7()8veuw*@7^z%(t+vl5-bz$rg5z#9i(0rfakz@0$--5'
+heroku config:set DJANGO_SETTINGS_MODULE=storefront.settings.prod
+heroku config
+heroku config:set DATABASE_URL=mysql://bedb4c784ff960:c523ba78@us-cdbr-east-06.cleardb.net/heroku_a8a69d24710ebd8
+pipenv install dj-database-url
+heroku config
+pipenv shell
+. /home/uddam/newenv/bin/activate
+python manage.py runserver
+pytets
+pytest
+git add .
+git commit -m "Provisioned mySQL database, Redis instance, and  SMTP Server"
+git remote -vv
+git branch
+git push heroku main
+pipenv install django-silk
+git add .
+git commit -m "Install Silk as a dependency"
+git push heroku main
+heroku plugins:install heroku-repo
+heroku repo:gc --app ecombuy
+heroku repo:gc --app ecombuy-prod
+python manage.py runserver
+heroku repo:purge_cache --ecombuy-prod
+heroku repo:purge_cache --app ecombuy-prod
+pytest
+git push heroku main
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+sudo service mysql restart
+sudo service redis-server start
+python manage.py runserver
+pytest
+python manage.py runserver
+pytest
+python manage.py runserver
+git push heroku main
+git reflog expire --all --expire=now
+git gc --prune=now --aggressive
+git push heroku main
+git gc
+git gc --aggressive
+git prune
+bfg -b 100M 
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+brew install bfg
+install bfg
+pip install bfg
+bfg -b 100M
+git push origin main --force
+git push origin 
+git push --set-upstream origin main
+git push main --set-upstream origin main
+git push heroku main
+git count-objects -vH
+size-pack size
+git count-objects -vH
+heroku run bash
+herokurun python manage.py createsuperuser
+heroku run python manage.py createsuperuser
+heroku open
+bfg --delete-files YOUR-FILE-WITH-SENSITIVE-DATA
+git log
+source /home/uddam/newenv/bin/activate
+pipenv shel
+pipenv shell
+source /home/uddam/newenv/bin/activate
+heroku open
+heroku run python manage.py seed_db
+git push heroku master
+git push heroku main
+heroku repo:purge_cache -a ecombuy-prod
+git rev-list --objects --all | grep -f <(git verify-pack -v  .git/objects/pack/*.idx| sort -k 3 -n | cut -f 1 -d " " | tail -10)
+git rev-list --objects --all
+git filter-repo --path-glob '../../src/../..' --invert-paths --force
+git filter-repo --path-glob '*.zip' --invert-paths --force
+git filter-repo --path-glob '*.a' --invert-paths --force
+git filter-repo --path-glob
+git rev-list --objects --all | grep -f
+git rev-list --objects --all | grep -f <(git verify-pack -v  .git/objects/pack/*.idx| sort -k 3 -n | cut -f 1 -d " " | tail -10)
+brew install bfg
+pip install bfg
+bfg -b 100M
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+git log
+source /home/uddam/newenv/bin/activate
+git push heroku master
+git push heroku main
+. /home/uddam/newenv/bin/activate
+sudo service mysql restart
+sudo service redis-server start
+python manage.py runserver
+pytest
+heroku run python manage.py createsuperuser
+git log
+source /home/uddam/newenv/bin/activate
+git push heroku main
+python manage.py runserver
+pytest
+git push heroku main
+git log
+pipenv 
+pipenv shell
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+python manage.py runserver
+python manage.py runserverr
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+python --version
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+pipenv shell
+source /home/uddam/newenv/bin/activate
+sudo service mysql restart
+python manage.py runserver
+pytes
+pytest
+. /home/uddam/newenv/bin/activate
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+sudo service mysql restart
+python manage.py runserver
+source /home/uddam/newenv/bin/activate
+git lfs install
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+source /home/uddam/newenv/bin/activate
+pipenv shell
+sudo service mysql restart
+python manage.py runserver
+python --version
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py runserver
+pytest
+python manage.py runserver
+pytest
+git push heroku master
+git branch
+git remote -vv
+git push heroku main
+git add .
+git push heroku main
+git add .
+git commit -m "..."
+django --version
+python django --version
+python -m django --version
+python manage.py runserver
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python sudo service mysql restart
+python manage.py runserver
+pipenv shell
+. /home/uddam/.local/share/virtualenvs/uddam-xWptzJbx/bin/activate
+python manage.py runserver
+sudo service mysql restart\
+python manage.py runserver
+git add .
+git push heroku main
+git push main
+git push ecombuy main
+git push ecombuy-app main
+git init
+git fetch
+git status
+git remote set-head origin --auto
+git gc
+git fsck --full
+git status
+rm -rf .git
+git init
+git status

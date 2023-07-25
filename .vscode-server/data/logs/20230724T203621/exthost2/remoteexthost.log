@@ -1,0 +1,10 @@
+2023-07-24 20:50:41.630 [info] Extension host with pid 454 started
+2023-07-24 20:50:41.646 [info] Lock '/home/uddam/.vscode-server/data/User/workspaceStorage/96e01e3a329586d7c93d4dd62db94dde/vscode.lock': Lock acquired.
+2023-07-24 20:50:41.667 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-07-24 20:50:41.681 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-07-24 20:50:41.699 [info] Eager extensions activated
+2023-07-24 20:50:41.699 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-07-24 20:50:41.700 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-07-24 20:50:41.865 [info] Extension host terminating: received terminate message from renderer
+2023-07-24 20:50:41.865 [info] Lock '/home/uddam/.vscode-server/data/User/workspaceStorage/96e01e3a329586d7c93d4dd62db94dde/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-07-24 20:50:41.869 [info] Extension host with pid 454 exiting with code 0

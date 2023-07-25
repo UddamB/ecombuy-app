@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Režim kontroly typů v Pythonu",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Kontrola typů: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Přepnout na vypnuto",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Přepnout na zapnuto",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "Aktualizace nastavení „{0}.{1}“ se nezdařila.",
+    "Common.No": "Ne",
+    "Common.Yes": "Ano",
+    "Common.reload": "Načíst znovu",
+    "Common.remindMeLater": "Připomenout později",
+    "Insiders.installingPreRelease": "Probíhá instalace předběžného vydání buildu Pylance...",
+    "LanguageServer.settingsMigratedMessage": "Nastavení použitelná pro Microsoft Language Server se zkopírovala do nastavení Společnosti Microsoft. Podrobnosti najdete v souborech settings.json.",
+    "LanguageServer.settingsMigrationError": "Následující nastavení není možné migrovat:",
+    "Refactoring.MoveSymbol.newFileDetail": "Zadejte cestu nebo vyberte cílový soubor",
+    "Refactoring.MoveSymbol.newFileLabel": "Zadejte cestu k cílovému souboru ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Vybrat",
+    "Refactoring.MoveSymbol.openDialogTitle": "Vyberte nový soubor, do který se má symbol přesunout...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Přesunout symbol do ...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Hledat cílový soubor",
+    "Refactoring.MoveSymbol.quickPickTitle": "Vyberte cíl pro přesun",
+    "Refactoring.MoveSymbol.separatorText": "Cílové soubory ..."
+}

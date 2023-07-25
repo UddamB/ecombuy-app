@@ -1,0 +1,38 @@
+2023-07-15T04:11:25.319Z Warning: Cannot open browser.
+2023-07-15T04:11:25.319Z     at Object.warn (/usr/local/lib/heroku/node_modules/@oclif/core/lib/errors/index.js:50:15)
+2023-07-15T04:11:25.319Z     at showUrl (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:138:20)
+2023-07-15T04:11:25.319Z     at ChildProcess.<anonymous> (/usr/local/lib/heroku/node_modules/@heroku-cli/command/lib/login.js:151:17)
+2023-07-15T04:11:25.319Z     at ChildProcess.emit (node:events:513:28)
+2023-07-15T04:11:25.319Z     at maybeClose (node:internal/child_process:1100:16)
+2023-07-15T04:11:25.319Z     at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2023/07/15 04:13:26 Error: Expected response to be successful, got 422
+    at Request.handleFailure [as _handleFailure] (/usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/usr/local/lib/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /usr/local/lib/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023/07/15 04:13:26 {"id":"verification_required","message":"To create an app, verify your account by adding payment information. Verify now at https://heroku.com/verify Learn more at https://devcenter.heroku.com/articles/account-verification "}
+2023/07/15 05:13:46 Error: Expected response to be successful, got 404
+    at Request.handleFailure [as _handleFailure] (/home/uddam/.local/share/heroku/node_modules/heroku-client/lib/request.js:255:11)
+    at Request.<anonymous> (/home/uddam/.local/share/heroku/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at /home/uddam/.local/share/heroku/node_modules/heroku-client/lib/request.js:148:16
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023/07/15 05:13:46 {"resource":"app","id":"not_found","message":"Couldn't find that app."}2023/07/16 04:49:10 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://ecombuy-prod-46c16877e662.herokuapp.com/ in your browser.
+    at /home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (node:events:628:26)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1100:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)
+2023/07/17 05:32:44 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://ecombuy-prod-46c16877e662.herokuapp.com/ in your browser.
+    at /home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/heroku-cli-util/lib/open.js:12:16
+    at ChildProcess.<anonymous> (/home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/opn/index.js:86:5)
+    at Object.onceWrapper (node:events:628:26)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1100:16)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)

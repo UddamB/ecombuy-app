@@ -1,0 +1,45 @@
+2023-07-25 15:25:55.059 [info] Log level: Info
+2023-07-25 15:25:55.059 [info] Validating found git in: "git"
+2023-07-25 15:25:55.059 [info] Using git "2.34.1" from "git"
+2023-07-25 15:25:55.059 [info] > git rev-parse --show-toplevel [67ms]
+2023-07-25 15:25:55.060 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2023-07-25 15:25:55.070 [info] Open repository: /home/uddam
+2023-07-25 15:25:55.093 [info] > git rev-parse --show-toplevel [19ms]
+2023-07-25 15:25:55.100 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-25 15:25:55.103 [info] > git config --get commit.template [26ms]
+2023-07-25 15:25:55.105 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 15:25:55.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-25 15:25:55.116 [info] > git rev-parse --show-toplevel [8ms]
+2023-07-25 15:25:55.122 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 15:25:55.128 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 15:25:55.133 [info] > git status -z -uall [17ms]
+2023-07-25 15:25:55.139 [info] > git rev-parse --show-toplevel [8ms]
+2023-07-25 15:25:55.145 [info] > git config --get commit.template [7ms]
+2023-07-25 15:25:55.146 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-25 15:25:55.153 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 15:25:55.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-07-25 15:25:55.161 [info] > git rev-parse --show-toplevel [6ms]
+2023-07-25 15:25:55.170 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 15:25:55.177 [info] > git status -z -uall [19ms]
+2023-07-25 15:25:55.177 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 15:25:55.181 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 15:25:55.185 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 15:25:55.189 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 15:25:55.193 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 15:25:55.629 [info] > git check-ignore -v -z --stdin [26ms]
+2023-07-25 15:26:01.982 [info] > git check-ignore -v -z --stdin [4ms]
+2023-07-25 15:26:06.720 [info] > git check-ignore -v -z --stdin [14ms]
+2023-07-25 15:26:08.538 [info] > git check-ignore -v -z --stdin [7ms]
+2023-07-25 15:26:10.056 [info] > git check-ignore -v -z --stdin [6ms]
+2023-07-25 15:26:30.446 [info] > git push [0ms]
+2023-07-25 15:26:30.446 [info] fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+2023-07-25 15:26:30.452 [info] > git config --get commit.template [3ms]
+2023-07-25 15:26:30.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-07-25 15:26:30.468 [info] > git status -z -uall [13ms]

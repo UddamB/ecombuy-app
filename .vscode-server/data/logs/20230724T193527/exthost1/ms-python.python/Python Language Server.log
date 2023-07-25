@@ -1,0 +1,16 @@
+2023-07-24 19:35:31.966 [info] [Info  - 7:35:31 PM] (23750) Pylance language server 2023.7.30 (pyright 74d8f3c4) starting
+2023-07-24 19:35:32.029 [info] [Info  - 7:35:32 PM] (23750) Server root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-24 19:35:32.029 [info] [Info  - 7:35:32 PM] (23750) Starting service instance "uddam"
+2023-07-24 19:35:32.309 [info] [Info  - 7:35:32 PM] (23750) Setting pythonPath for service "uddam": "/home/uddam/newenv/bin/python"
+2023-07-24 19:35:32.440 [info] [Warn  - 7:35:32 PM] (23750) stubPath /home/uddam/typings is not a valid directory.
+2023-07-24 19:35:32.441 [info] [Info  - 7:35:32 PM] (23750) Assuming Python version 3.9
+2023-07-24 19:35:32.545 [info] [Info  - 7:35:32 PM] (23750) Auto-excluding /home/uddam/newenv
+2023-07-24 19:35:32.546 [info] [Info  - 7:35:32 PM] (23750) Auto-excluding /home/uddam/newproject/newenv
+2023-07-24 19:35:32.661 [info] [Info  - 7:35:32 PM] (23750) Found 215 source files
+2023-07-24 19:35:32.683 [info] [Info  - 7:35:32 PM] (23750) Background analysis(1) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-24 19:35:32.711 [info] [Info  - 7:35:32 PM] (23750) Background analysis(1) started
+2023-07-24 19:35:33.175 [info] [Info  - 7:35:33 PM] (23750) Indexer background runner(2) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist (index)
+2023-07-24 19:35:33.175 [info] [Info  - 7:35:33 PM] (23750) Indexing(2) started
+2023-07-24 19:35:33.690 [info] [Info  - 7:35:33 PM] (23750) scanned(2) 142 files over 1 exec env
+2023-07-24 19:35:33.793 [info] [Info  - 7:35:33 PM] (23750) indexed(2) 106 files over 1 exec env
+2023-07-24 19:35:33.802 [info] [Info  - 7:35:33 PM] (23750) Indexing finished(2).

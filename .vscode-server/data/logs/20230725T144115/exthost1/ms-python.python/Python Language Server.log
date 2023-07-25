@@ -1,0 +1,23 @@
+2023-07-25 14:41:19.776 [info] [Info  - 2:41:19 PM] (261) Pylance language server 2023.7.30 (pyright 74d8f3c4) starting
+2023-07-25 14:41:19.786 [info] [Info  - 2:41:19 PM] (261) Server root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-25 14:41:19.786 [info] [Info  - 2:41:19 PM] (261) Starting service instance "uddam"
+2023-07-25 14:41:19.829 [info] [Warn  - 2:41:19 PM] (261) stubPath /home/uddam/typings is not a valid directory.
+2023-07-25 14:41:19.936 [info] [Info  - 2:41:19 PM] (261) Found 80 source files
+2023-07-25 14:41:20.093 [info] [Info  - 2:41:20 PM] (261) Background analysis(1) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-25 14:41:20.095 [info] [Info  - 2:41:20 PM] (261) Background analysis(1) started
+2023-07-25 15:08:01.639 [info] [Info  - 3:08:01 PM] (261) Indexer background runner(2) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist (index)
+2023-07-25 15:08:01.640 [info] [Info  - 3:08:01 PM] (261) Indexing(2) started
+2023-07-25 15:08:02.049 [info] [Info  - 3:08:02 PM] (261) scanned(2) 57 files over 1 exec env
+2023-07-25 15:08:02.969 [info] [Info  - 3:08:02 PM] (261) indexed(2) 30 files over 1 exec env
+2023-07-25 15:08:02.974 [info] [Info  - 3:08:02 PM] (261) Indexing finished(2).
+2023-07-25 15:11:09.106 [info] [Info  - 3:11:09 PM] (261) Setting pythonPath for service "uddam": "/home/uddam/.virtualenvs/uddam-xWptzJbx/bin/python"
+2023-07-25 15:11:09.107 [info] [Warn  - 3:11:09 PM] (261) stubPath /home/uddam/typings is not a valid directory.
+2023-07-25 15:11:09.128 [info] [Info  - 3:11:09 PM] (261) Assuming Python version 3.9
+2023-07-25 15:11:09.202 [info] [Info  - 3:11:09 PM] (261) Found 80 source files
+2023-07-25 15:11:09.519 [info] [Info  - 3:11:09 PM] (261) Indexer background runner(3) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist (index)
+2023-07-25 15:11:09.519 [info] [Info  - 3:11:09 PM] (261) Indexing(3) started
+2023-07-25 15:11:09.825 [info] [Info  - 3:11:09 PM] (261) scanned(3) 143 files over 1 exec env
+2023-07-25 15:11:11.967 [info] [Info  - 3:11:11 PM] (261) [IDX(3)] Long operation: index execution environment /home/uddam (2088ms)
+2023-07-25 15:11:11.968 [info] [Info  - 3:11:11 PM] (261) [IDX(3)] Long operation: index packages /home/uddam (2102ms)
+2023-07-25 15:11:11.968 [info] [Info  - 3:11:11 PM] (261) indexed(3) 106 files over 1 exec env
+2023-07-25 15:11:11.977 [info] [Info  - 3:11:11 PM] (261) Indexing finished(3).

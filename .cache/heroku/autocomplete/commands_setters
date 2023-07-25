@@ -1,0 +1,2534 @@
+
+_set_all_commands_list () {
+_all_commands_list=(
+"addons":"lists your add-ons and attachments"
+"addons\:attach":"attach an existing add-on resource to an app"
+"addons\:create":"create a new add-on resource"
+"addons\:destroy":"permanently destroy an add-on resource"
+"addons\:detach":"detach an existing add-on resource from an app"
+"addons\:docs":"open an add-on's Dev Center documentation in your browser"
+"addons\:downgrade":"change add-on plan"
+"addons\:info":"show detailed add-on resource and attachment information"
+"addons\:open":"open an add-on's dashboard in your browser"
+"addons\:plans":"list all available plans for an add-on services"
+"addons\:rename":"rename an add-on"
+"addons\:services":"list all available add-on services"
+"addons\:upgrade":"change add-on plan"
+"addons\:wait":"show provisioning status of the add-ons on the app"
+"domains":"list domains for an app"
+"domains\:add":"add a domain to an app"
+"domains\:clear":"remove all domains from an app"
+"domains\:info":"show detailed information for a domain on an app"
+"domains\:remove":"remove a domain from an app"
+"domains\:update":"update a domain to use a different SSL certificate on an app"
+"domains\:wait":"wait for domain to be active for an app"
+"autocomplete":"display autocomplete installation instructions"
+"auth\:2fa":"check 2fa status"
+"auth\:2fa\:disable":"disables 2fa on account"
+"auth\:login":"login with your Heroku credentials"
+"auth\:logout":"clears local login credentials and invalidates API session"
+"auth\:token":"outputs current CLI authentication token."
+"auth\:whoami":"display the current logged in user"
+"labs\:disable":"disables an experimental feature"
+"buildpacks":"display the buildpacks for an app"
+"buildpacks\:add":"add new app buildpack, inserting into list of buildpacks if necessary"
+"buildpacks\:clear":"clear all buildpacks set on the app"
+"buildpacks\:info":"fetch info about a buildpack"
+"buildpacks\:remove":"remove a buildpack set on the app"
+"buildpacks\:search":"search for buildpacks"
+"buildpacks\:set"
+"buildpacks\:versions":"list versions of a buildpack"
+"ci\:config":"display CI config vars"
+"ci\:config\:get":"get a CI config var"
+"ci\:config\:set":"set CI config vars"
+"ci\:config\:unset":"unset CI config vars"
+"ci\:debug":"opens an interactive test debugging session with the contents of the current directory"
+"ci\:migrate-manifest":"app-ci.json is deprecated. Run this command to migrate to app.json with an environments key."
+"ci\:open":"open the Dashboard version of Heroku CI"
+"certs":"list SSL certificates for an app"
+"certs\:add":"add an SSL certificate to an app"
+"certs\:auto":"show ACM status for an app"
+"certs\:auto\:disable":"disable ACM for an app"
+"certs\:auto\:enable":"enable ACM status for an app"
+"certs\:auto\:refresh":"refresh ACM for an app"
+"certs\:chain":"print an ordered & complete chain for a certificate"
+"certs\:generate":"generate a key and a CSR or self-signed certificate"
+"certs\:info":"show certificate information for an SSL certificate"
+"certs\:key":"print the correct key for the given certificate"
+"certs\:remove":"remove an SSL certificate from an app"
+"certs\:update":"update an SSL certificate on an app"
+"ci":"display the most recent CI runs for the given pipeline"
+"ci\:info":"show the status of a specific test run"
+"ci\:last":"looks for the most recent run and returns the output of that run"
+"ci\:rerun":"rerun tests against current directory"
+"ci\:run":"run tests against current directory"
+"config":"display the config vars for an app"
+"config\:edit":"interactively edit config vars"
+"config\:get":"display a single config value for an app"
+"config\:unset":"unset one or more config vars"
+"container":"Use containers to build and deploy Heroku apps"
+"container\:login":"log in to Heroku Container Registry"
+"container\:logout":"log out from Heroku Container Registry"
+"container\:pull":"pulls an image from an app's process type"
+"container\:push":"builds, then pushes Docker images to deploy your Heroku app"
+"container\:release":"Releases previously pushed Docker images to your Heroku app"
+"container\:rm":"remove the process type from your app"
+"container\:run":"builds, then runs the docker image locally"
+"local":"run heroku app locally"
+"local\:run":"run a one-off command"
+"local\:version":"display node-foreman version"
+"authorizations":"list OAuth authorizations"
+"authorizations\:create":"create a new OAuth authorization"
+"authorizations\:info":"show an existing OAuth authorization"
+"authorizations\:revoke":"revoke OAuth authorization"
+"authorizations\:rotate":"updates an OAuth authorization token"
+"authorizations\:update":"updates an OAuth authorization"
+"clients":"list your OAuth clients"
+"clients\:create":"create a new OAuth client"
+"clients\:destroy":"delete client by ID"
+"clients\:info":"show details of an oauth client"
+"clients\:rotate":"rotate OAuth client secret"
+"clients\:update":"update OAuth client"
+"sessions":"list your OAuth sessions"
+"sessions\:destroy":"delete (logout) OAuth session by ID"
+"git\:clone":"clones a heroku app to your local machine at DIRECTORY (defaults to app name)"
+"git\:remote":"adds a git remote to an app repo"
+"pg":"show database information"
+"pg\:backups":"list database backups"
+"pg\:backups\:cancel":"cancel an in-progress backup or restore (default newest)"
+"pg\:backups\:capture":"capture a new backup"
+"pg\:backups\:delete":"delete a backup"
+"pg\:backups\:download":"downloads database backup"
+"pg\:backups\:info":"get information about a specific backup"
+"pg\:backups\:restore":"restore a backup (default latest) to a database"
+"pg\:backups\:schedule":"schedule daily backups for given database"
+"pg\:backups\:schedules":"list backup schedule"
+"pg\:backups\:unschedule":"stop daily backups"
+"pg\:backups\:url":"get secret but publicly accessible URL of a backup"
+"pg\:bloat":"show table and index bloat in your database ordered by most wasteful"
+"pg\:blocking":"display queries holding locks other queries are waiting to be released"
+"pg\:connection-pooling\:attach":"add an attachment to a database using connection pooling"
+"pg\:copy":"copy all data from source db to target"
+"pg\:credentials":"show information on credentials in the database"
+"pg\:credentials\:create":"create credential within database"
+"pg\:credentials\:destroy":"destroy credential within database"
+"pg\:credentials\:repair-default":"repair the permissions of the default credential within database"
+"pg\:credentials\:rotate":"rotate the database credentials"
+"pg\:credentials\:url":"show information on a database credential"
+"pg\:diagnose":"run or view diagnostics report"
+"pg\:info":"show database information"
+"pg\:kill":"kill a query"
+"pg\:killall":"terminates all connections for all credentials"
+"pg\:links":"lists all databases and information on link"
+"pg\:links\:create":"create a link between data stores"
+"pg\:links\:destroy":"destroys a link between data stores"
+"pg\:locks":"display queries with active locks"
+"pg\:maintenance":"show current maintenance information"
+"pg\:maintenance\:run":"start maintenance"
+"pg\:maintenance\:window":"set weekly maintenance window"
+"pg\:outliers":"show 10 queries that have longest execution time in aggregate"
+"pg\:promote":"sets DATABASE as your DATABASE_URL"
+"pg\:ps":"view active queries with execution time"
+"pg\:psql":"open a psql shell to the database"
+"pg\:pull":"pull Heroku database into local or remote database"
+"pg\:push":"push local or remote into Heroku database"
+"pg\:reset":"delete all data in DATABASE"
+"pg\:settings":"show your current database settings"
+"pg\:settings\:auto-explain":"Automatically log execution plans of queries without running EXPLAIN by hand."
+"pg\:settings\:auto-explain\:log-analyze":"Shows actual run times on the execution plan."
+"pg\:settings\:auto-explain\:log-buffers":"Includes buffer usage statistics when execution plans are logged."
+"pg\:settings\:auto-explain\:log-min-duration":"Sets the minimum execution time in milliseconds for a statement's plan to be logged."
+"pg\:settings\:auto-explain\:log-nested-statements":"Nested statements are included in the execution plan's log."
+"pg\:settings\:auto-explain\:log-triggers":"Includes trigger execution statistics in execution plan logs."
+"pg\:settings\:auto-explain\:log-verbose":"Include verbose details in execution plans."
+"pg\:settings\:log-lock-waits":"Controls whether a log message is produced when a session waits longer than the deadlock_timeout to acquire a lock. deadlock_timeout is set to 1 second"
+"pg\:settings\:log-min-duration-statement":"The duration of each completed statement will be logged if the statement completes after the time specified by VALUE."
+"pg\:settings\:log-statement":"log_statement controls which SQL statements are logged."
+"pg\:settings\:track-functions":"track_functions controls tracking of function call counts and time used. Default is none."
+"pg\:unfollow":"stop a replica from following and make it a writeable database"
+"pg\:upgrade":"unfollow a database and upgrade it to the latest stable PostgreSQL version"
+"pg\:vacuum-stats":"show dead rows and whether an automatic vacuum is expected to be triggered"
+"pg\:wait":"blocks until database is available"
+"psql":"open a psql shell to the database"
+"pipelines":"list pipelines you have access to"
+"pipelines\:add":"add this app to a pipeline"
+"pipelines\:connect":"connect a github repo to an existing pipeline"
+"pipelines\:create":"create a new pipeline"
+"pipelines\:destroy":"destroy a pipeline"
+"pipelines\:diff":"compares the latest release of this app to its downstream app(s)"
+"pipelines\:info":"show list of apps in a pipeline"
+"pipelines\:open":"open a pipeline in dashboard"
+"pipelines\:promote":"promote the latest release of this app to its downstream app(s)"
+"pipelines\:remove":"remove this app from its pipeline"
+"pipelines\:rename":"rename a pipeline"
+"pipelines\:setup":"bootstrap a new pipeline with common settings and create a production and staging app (requires a fully formed app.json in the repo)"
+"pipelines\:transfer":"transfer ownership of a pipeline"
+"pipelines\:update":"update the app's stage in a pipeline"
+"reviewapps\:disable":"disable review apps and/or settings on an existing pipeline"
+"reviewapps\:enable":"enable review apps and/or settings on an existing pipeline"
+"ps\:autoscale\:disable":"disable web dyno autoscaling"
+"ps\:autoscale\:enable":"enable web dyno autoscaling"
+"ps\:wait":"wait for all dynos to be running latest version after a release"
+"regions":"list available regions for deployment"
+"ps\:copy":"Copy a file from a dyno to the local filesystem"
+"ps\:exec":"Create an SSH session to a dyno"
+"ps\:forward":"Forward traffic on a local port to a dyno"
+"ps\:socks":"Launch a SOCKS proxy into a dyno"
+"redis":"gets information about redis"
+"redis\:cli":"opens a redis prompt"
+"redis\:credentials":"display credentials information"
+"redis\:info":"gets information about redis"
+"redis\:keyspace-notifications":"set the keyspace notifications configuration"
+"redis\:maintenance":"manage maintenance windows"
+"redis\:maxmemory":"set the key eviction policy"
+"redis\:promote":"sets DATABASE as your REDIS_URL"
+"redis\:stats-reset":"reset all stats covered by RESETSTAT (https://redis.io/commands/config-resetstat)"
+"redis\:timeout":"set the number of seconds to wait before killing idle connections"
+"redis\:upgrade":"perform in-place version upgrade"
+"redis\:wait":"wait for Redis instance to be available"
+"spaces":"list available spaces"
+"spaces\:create":"create a new space"
+"spaces\:destroy":"destroy a space"
+"spaces\:info":"show info about a space"
+"spaces\:peering\:info":"display the information necessary to initiate a peering connection"
+"spaces\:peerings":"list peering connections for a space"
+"spaces\:peerings\:accept":"accepts a pending peering request for a private space"
+"spaces\:peerings\:destroy":"destroys an active peering connection in a private space"
+"spaces\:ps":"list dynos for a space"
+"spaces\:rename":"renames a space"
+"spaces\:topology":"show space topology"
+"spaces\:transfer":"transfer a space to another team"
+"spaces\:vpn\:config":"display the configuration information for VPN"
+"spaces\:vpn\:connect":"create VPN"
+"spaces\:vpn\:connections":"list the VPN Connections for a space"
+"spaces\:vpn\:destroy":"destroys VPN in a private space"
+"spaces\:vpn\:info":"display the information for VPN"
+"spaces\:vpn\:update":"update VPN"
+"spaces\:vpn\:wait":"wait for VPN Connection to be created"
+"spaces\:wait":"wait for a space to be created"
+"trusted-ips":"list trusted IP ranges for a space"
+"trusted-ips\:add":"Add one range to the list of trusted IP ranges"
+"trusted-ips\:remove":"Remove a range from the list of trusted IP ranges"
+"status":"display current status of the Heroku platform"
+"webhooks":"list webhooks on an app"
+"webhooks\:add":"add a webhook to an app"
+"webhooks\:deliveries":"list webhook deliveries on an app"
+"webhooks\:deliveries\:info":"info for a webhook event on an app"
+"webhooks\:events":"list webhook events on an app"
+"webhooks\:events\:info":"info for a webhook event on an app"
+"webhooks\:info":"info for a webhook on an app"
+"webhooks\:remove":"removes a webhook from an app"
+"webhooks\:update":"updates a webhook in an app"
+"access":"list who has access to an app"
+"access\:add":"add new users to your app"
+"access\:remove":"remove users from a team app"
+"access\:update":"update existing collaborators on an team app"
+"apps\:join":"add yourself to a team app"
+"apps\:leave":"remove yourself from a team app"
+"apps\:lock":"prevent team members from joining an app"
+"apps\:transfer":"transfer applications to another user or team"
+"apps\:unlock":"unlock an app so any team member can join"
+"join":"add yourself to a team app"
+"leave":"remove yourself from a team app"
+"lock":"prevent team members from joining an app"
+"members":"list members of a team"
+"members\:add":"adds a user to a team"
+"members\:remove":"removes a user from a team"
+"members\:set":"sets a members role in a team"
+"orgs":"list the teams that you are a member of"
+"orgs\:open":"open the team interface in a browser window"
+"teams":"list the teams that you are a member of"
+"unlock":"unlock an app so any team member can join"
+"commands":"list all the commands"
+"update":"update the <%= config.bin %> CLI"
+"apps":"list your apps"
+"apps\:create":"creates a new app"
+"apps\:destroy":"permanently destroy an app"
+"apps\:errors":"view app errors"
+"apps\:favorites":"list favorited apps"
+"apps\:favorites\:add":"favorites an app"
+"apps\:favorites\:remove":"unfavorites an app"
+"apps\:info":"show detailed app information"
+"apps\:open":"open the app in a web browser"
+"apps\:rename":"rename an app"
+"apps\:stacks":"show the list of available stacks"
+"apps\:stacks\:set":"set the stack of an app"
+"config\:set":"set one or more config vars"
+"drains":"display the log drains of an app"
+"drains\:add":"adds a log drain to an app"
+"drains\:remove":"removes a log drain from an app"
+"dyno\:kill":"stop app dyno"
+"dyno\:resize":"manage dyno sizes"
+"dyno\:restart":"restart app dynos"
+"dyno\:scale":"scale dyno quantity up or down"
+"dyno\:stop":"stop app dyno"
+"features":"list available app features"
+"features\:disable":"disables an app feature"
+"features\:enable":"enables an app feature"
+"features\:info":"display information about a feature"
+"keys":"display your SSH keys"
+"keys\:add":"add an SSH key for a user"
+"keys\:clear":"remove all SSH keys for current user"
+"keys\:remove":"remove an SSH key from the user"
+"labs":"list experimental features"
+"labs\:enable":"enables an experimental feature"
+"labs\:info":"show feature info"
+"maintenance":"display the current maintenance status of app"
+"maintenance\:off":"take the app out of maintenance mode"
+"maintenance\:on":"put the app into maintenance mode"
+"notifications":"display notifications"
+"ps":"list dynos for an app"
+"ps\:kill":"stop app dyno"
+"ps\:resize":"manage dyno sizes"
+"ps\:restart":"restart app dynos"
+"ps\:scale":"scale dyno quantity up or down"
+"ps\:stop":"stop app dyno"
+"ps\:type":"manage dyno sizes"
+"releases":"display the releases for an app"
+"releases\:info":"view detailed information for a release"
+"releases\:output":"View the release command output"
+"releases\:rollback":"rollback to a previous release"
+"help":"Display help for <%= config.bin %>."
+"logs":"display recent log output"
+"run":"run a one-off process inside a heroku dyno"
+"run\:detached":"run a detached dyno, where output is sent to your logs"
+"version"
+"plugins":"List installed plugins."
+"plugins\:inspect":"Displays installation properties of a plugin."
+"plugins\:install":"Installs a plugin into the CLI."
+"plugins\:link":"Links a plugin into the CLI for development."
+"plugins\:uninstall":"Removes a plugin from the CLI."
+"plugins\:update":"Update installed plugins."
+"which":"Show which plugin a command is in."
+)
+}
+
+_set_addons_flags () {
+_flags=(
+"--all[(switch) show add-ons and attachments for all accessible apps]"
+"--json[(switch) return add-ons in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_attach_flags () {
+_flags=(
+"--as=-[name for add-on attachment]"
+"--credential=-[credential name for scoped access to Heroku Postgres]"
+"--confirm=-[overwrite existing add-on attachment with same name]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_create_flags () {
+_flags=(
+"--name=-[name for the add-on resource]"
+"--as=-[name for the initial add-on attachment]"
+"--confirm=-[overwrite existing config vars or existing add-on attachments]"
+"--wait[(switch) watch add-on creation status and exit when complete]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_destroy_flags () {
+_flags=(
+"--force[(switch) allow destruction even if connected to other apps]"
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_detach_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_docs_flags () {
+_flags=(
+"--show-url[(switch) show URL, do not open browser]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_downgrade_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_open_flags () {
+_flags=(
+"--show-url[(switch) show URL, do not open browser]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_plans_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_addons_rename_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_services_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_addons_upgrade_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_addons_wait_flags () {
+_flags=(
+"--wait-interval=-[how frequently to poll in seconds]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_domains_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+"--columns=-[only show provided columns (comma-separated)]"
+"--sort=-[property to sort by (prepend '-' for descending)]"
+"--filter=-[filter property by partial string matching, ex: name=foo]"
+"--csv[(switch) output is csv format [alias: --output=csv]]"
+"--output=-[output in a more machine friendly format]"
+"--extended[(switch) show extra columns]"
+"--no-header[(switch) hide table header from output]"
+)
+}
+
+_set_domains_add_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--cert=-[the name of the SSL cert you want to use for this domain]"
+"--json[(switch) output in json format]"
+"--wait[(switch) undefined]"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_domains_clear_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_domains_info_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_domains_remove_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_domains_update_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--cert=-[the name or id of the certificate you want to use for this domain]"
+)
+}
+
+_set_domains_wait_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_autocomplete_flags () {
+_flags=(
+"--refresh-cache[(switch) refresh cache only (ignores displaying instructions)]"
+)
+}
+
+# no flags for auth:2fa
+# no flags for auth:2fa:disable
+_set_auth_login_flags () {
+_flags=(
+"--browser=-[browser to open SSO with (example: "firefox", "safari")]"
+"--interactive[(switch) login with username/password]"
+"--expires-in=-[duration of token in seconds (default 30 days)]"
+)
+}
+
+# no flags for auth:logout
+_set_auth_token_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+)
+}
+
+# no flags for auth:whoami
+_set_labs_disable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--confirm=-[undefined]"
+)
+}
+
+_set_buildpacks_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_buildpacks_add_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--index=-[the 1-based index of the URL in the list of URLs]"
+)
+}
+
+_set_buildpacks_clear_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+# no flags for buildpacks:info
+_set_buildpacks_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--index=-[the 1-based index of the URL to remove from the list of URLs]"
+)
+}
+
+_set_buildpacks_search_flags () {
+_flags=(
+"--namespace=-[buildpack namespaces to filter on using a comma separated list]"
+"--name=-[buildpack names to filter on using a comma separated list ]"
+"--description=-[buildpack description to filter on]"
+)
+}
+
+_set_buildpacks_set_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--index=-[the 1-based index of the URL in the list of URLs]"
+)
+}
+
+# no flags for buildpacks:versions
+_set_ci_config_flags () {
+_flags=(
+"--shell[(switch) output config vars in shell format]"
+"--json[(switch) output config vars in json format]"
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ci_config_get_flags () {
+_flags=(
+"--shell[(switch) output config var in shell format]"
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ci_config_set_flags () {
+_flags=(
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ci_config_unset_flags () {
+_flags=(
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ci_debug_flags () {
+_flags=(
+"--no-setup[(switch) start test dyno without running test-setup]"
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--no-cache[(switch) start test run with an empty cache]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+# no flags for ci:migrate-manifest
+_set_ci_open_flags () {
+_flags=(
+"--pipeline=-[(autocomplete) pipeline]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_add_flags () {
+_flags=(
+"--bypass[(switch) bypass the trust chain completion step]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_auto_flags () {
+_flags=(
+"--wait[(switch) watch ACM status and display the status when complete]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_auto_disable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_auto_enable_flags () {
+_flags=(
+"--wait[(switch) watch ACM status and exit when complete]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_auto_refresh_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_chain_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_generate_flags () {
+_flags=(
+"--selfsigned[(switch) generate a self-signed certificate instead of a CSR]"
+"--keysize=-[RSA key size in bits (default: 2048)]"
+"--owner=-[name of organization certificate belongs to]"
+"--country=-[country of owner, as a two-letter ISO country code]"
+"--area=-[sub-country area (state, province, etc.) of owner]"
+"--city=-[city of owner]"
+"--subject=-[specify entire certificate subject]"
+"--now[(switch) do not prompt for any owner information]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_info_flags () {
+_flags=(
+"--name=-[name to check info on]"
+"--endpoint=-[endpoint to check info on]"
+"--show-domains[(switch) show associated domains]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_key_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_remove_flags () {
+_flags=(
+"--name=-[name to remove]"
+"--endpoint=-[endpoint to remove]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_certs_update_flags () {
+_flags=(
+"--bypass[(switch) bypass the trust chain completion step]"
+"--name=-[name to update]"
+"--endpoint=-[endpoint to update]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ci_flags () {
+_flags=(
+"--app=-[(autocomplete) app name]: :_compadd_flag_options"
+"--watch[(switch) keep running and watch for new and update tests]"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_ci_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app name]: :_compadd_flag_options"
+"--node=-[the node number to show its setup and output]"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+)
+}
+
+_set_ci_last_flags () {
+_flags=(
+"--app=-[(autocomplete) app name]: :_compadd_flag_options"
+"--node=-[the node number to show its setup and output]"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+)
+}
+
+_set_ci_rerun_flags () {
+_flags=(
+"--app=-[(autocomplete) app name]: :_compadd_flag_options"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+)
+}
+
+_set_ci_run_flags () {
+_flags=(
+"--app=-[(autocomplete) app name]: :_compadd_flag_options"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+)
+}
+
+_set_config_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--shell[(switch) output config vars in shell format]"
+"--json[(switch) output config vars in json format]"
+)
+}
+
+_set_config_edit_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_config_get_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--shell[(switch) output config vars in shell format]"
+)
+}
+
+_set_config_unset_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+# no flags for container
+_set_container_login_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+)
+}
+
+_set_container_logout_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+)
+}
+
+_set_container_pull_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_container_push_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+"--recursive[(switch) pushes Dockerfile.<process> found in current and subdirectories]"
+"--arg=-[set build-time variables]"
+"--context-path=-[path to use as build context (defaults to Dockerfile dir)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_container_release_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_container_rm_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_container_run_flags () {
+_flags=(
+"--port=-[port the app will run on]"
+"--verbose[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_local_flags () {
+_flags=(
+"--procfile=-[use a different Procfile]: :_files"
+"--env=-[location of env file (defaults to .env)]"
+"--port=-[port to listen on]"
+)
+}
+
+_set_local_run_flags () {
+_flags=(
+"--env=-[undefined]"
+"--port=-[undefined]"
+)
+}
+
+# no flags for local:version
+_set_authorizations_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_authorizations_create_flags () {
+_flags=(
+"--description=-[set a custom authorization description]"
+"--scope=-[(autocomplete) set custom OAuth scopes]: :_compadd_flag_options"
+"--expires-in=-[set expiration in seconds (default no expiration)]"
+"--short[(switch) only output token]"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_authorizations_info_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+# no flags for authorizations:revoke
+# no flags for authorizations:rotate
+_set_authorizations_update_flags () {
+_flags=(
+"--description=-[set a custom authorization description]"
+"--client-id=-[identifier of OAuth client to set]"
+"--client-secret=-[secret of OAuth client to set]"
+)
+}
+
+_set_clients_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_clients_create_flags () {
+_flags=(
+"--shell[(switch) output in shell format]"
+"--json[(switch) output in json format]"
+)
+}
+
+# no flags for clients:destroy
+_set_clients_info_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--shell[(switch) output in shell format]"
+)
+}
+
+_set_clients_rotate_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--shell[(switch) output in shell format]"
+)
+}
+
+_set_clients_update_flags () {
+_flags=(
+"--name=-[change the client name]"
+"--url=-[change the client redirect URL]"
+)
+}
+
+_set_sessions_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+# no flags for sessions:destroy
+_set_git_clone_flags () {
+_flags=(
+"--app=-[(autocomplete) the Heroku app to use]: :_compadd_flag_options"
+"--remote=-[(autocomplete) the git remote to create, default "heroku"]: :_compadd_flag_options"
+)
+}
+
+_set_git_remote_flags () {
+_flags=(
+"--app=-[(autocomplete) the Heroku app to use]: :_compadd_flag_options"
+"--remote=-[(autocomplete) the git remote to create]: :_compadd_flag_options"
+)
+}
+
+_set_pg_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_cancel_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_capture_flags () {
+_flags=(
+"--wait-interval=-[undefined]"
+"--verbose[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_delete_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_download_flags () {
+_flags=(
+"--output=-[location to download to. Defaults to latest.dump]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_restore_flags () {
+_flags=(
+"--wait-interval=-[undefined]"
+"--extensions=-[comma-separated list of extensions to pre-install in the public schema]"
+"--verbose[(switch) undefined]"
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_schedule_flags () {
+_flags=(
+"--at=-[at a specific (24h) hour in the given timezone. Defaults to UTC. --at '[HOUR]:00 [TIMEZONE]']"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_schedules_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_unschedule_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_backups_url_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_bloat_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_blocking_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_connection-pooling_attach_flags () {
+_flags=(
+"--as=-[name for add-on attachment]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_copy_flags () {
+_flags=(
+"--wait-interval=-[undefined]"
+"--verbose[(switch) undefined]"
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_create_flags () {
+_flags=(
+"--name=-[name of the new credential within the database]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_destroy_flags () {
+_flags=(
+"--name=-[unique identifier for the credential]"
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_repair-default_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_rotate_flags () {
+_flags=(
+"--name=-[which credential to rotate (default credentials if not specified)]"
+"--all[(switch) rotate all credentials]"
+"--confirm=-[undefined]"
+"--force[(switch) forces rotating the targeted credentials]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_credentials_url_flags () {
+_flags=(
+"--name=-[which credential to show (default credentials if not specified)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_diagnose_flags () {
+_flags=(
+"--json[(switch) format output as JSON]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_kill_flags () {
+_flags=(
+"--force[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_killall_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_links_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_links_create_flags () {
+_flags=(
+"--as=-[name of link to create]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_links_destroy_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_locks_flags () {
+_flags=(
+"--truncate[(switch) truncates queries to 40 charaters]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_maintenance_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_maintenance_run_flags () {
+_flags=(
+"--force[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_maintenance_window_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_outliers_flags () {
+_flags=(
+"--reset[(switch) resets statistics gathered by pg_stat_statements]"
+"--truncate[(switch) truncate queries to 40 characters]"
+"--num=-[the number of queries to display (default: 10)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_promote_flags () {
+_flags=(
+"--force[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_ps_flags () {
+_flags=(
+"--verbose[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_psql_flags () {
+_flags=(
+"--command=-[SQL command to run]"
+"--file=-[SQL file to run]: :_files"
+"--credential=-[credential to use]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_pull_flags () {
+_flags=(
+"--exclude-table-data=-[tables for which data should be excluded (use ';' to split multiple names)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_push_flags () {
+_flags=(
+"--exclude-table-data=-[tables for which data should be excluded (use ';' to split multiple names)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_reset_flags () {
+_flags=(
+"--extensions=-[comma-separated list of extensions to pre-install in the public schema]"
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-analyze_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-buffers_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-min-duration_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-nested-statements_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-triggers_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_auto-explain_log-verbose_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_log-lock-waits_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_log-min-duration-statement_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_log-statement_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_settings_track-functions_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_unfollow_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_upgrade_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--version=-[PostgreSQL version to upgrade to]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_vacuum-stats_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pg_wait_flags () {
+_flags=(
+"--wait-interval=-[how frequently to poll in seconds (to avoid rate limiting)]"
+"--no-notify[(switch) do not show OS notification]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_psql_flags () {
+_flags=(
+"--command=-[SQL command to run]"
+"--file=-[SQL file to run]: :_files"
+"--credential=-[credential to use]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pipelines_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_pipelines_add_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--stage=-[(autocomplete) stage of first app in pipeline]: :_compadd_flag_options"
+)
+}
+
+_set_pipelines_connect_flags () {
+_flags=(
+"--repo=-[the GitHub repository to connect to]"
+)
+}
+
+_set_pipelines_create_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--stage=-[(autocomplete) stage of first app in pipeline]: :_compadd_flag_options"
+"--team=-[(autocomplete) the team which will own the apps]: :_compadd_flag_options"
+)
+}
+
+# no flags for pipelines:destroy
+_set_pipelines_diff_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_pipelines_info_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+# no flags for pipelines:open
+_set_pipelines_promote_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--to=-[comma separated list of apps to promote to]"
+)
+}
+
+_set_pipelines_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+# no flags for pipelines:rename
+_set_pipelines_setup_flags () {
+_flags=(
+"--team=-[(autocomplete) the team to assign pipeline ownership to (defaults to current user)]: :_compadd_flag_options"
+"--yes[(switch) accept all default settings without prompting]"
+)
+}
+
+_set_pipelines_transfer_flags () {
+_flags=(
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+"--confirm=-[undefined]"
+)
+}
+
+_set_pipelines_update_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--stage=-[(autocomplete) new stage of app]: :_compadd_flag_options"
+)
+}
+
+_set_reviewapps_disable_flags () {
+_flags=(
+"--app=-[(autocomplete) parent app used by review apps]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+"--no-autodeploy[(switch) disable autodeployments]"
+"--no-autodestroy[(switch) disable automatically destroying review apps]"
+"--no-wait-for-ci[(switch) disable wait for CI]"
+)
+}
+
+_set_reviewapps_enable_flags () {
+_flags=(
+"--app=-[(autocomplete) parent app used by review apps]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--pipeline=-[(autocomplete) name of pipeline]: :_compadd_flag_options"
+"--autodeploy[(switch) autodeploy the review app]"
+"--autodestroy[(switch) autodestroy the review app]"
+"--wait-for-ci[(switch) wait for CI to pass before deploying]"
+)
+}
+
+_set_ps_autoscale_disable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_autoscale_enable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--min=-[minimum number of dynos]"
+"--max=-[maximum number of dynos]"
+"--p95=-[desired p95 response time]"
+"--notifications[(switch) receive email notifications when the max dyno limit is reached]"
+)
+}
+
+_set_ps_wait_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--type=-[wait for one specific dyno type]"
+"--wait-interval=-[how frequently to poll in seconds (to avoid hitting Heroku API rate limits)]"
+"--with-run[(switch) whether to wait for one-off run dynos]"
+)
+}
+
+_set_regions_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--private[(switch) show regions for private spaces]"
+"--common[(switch) show regions for common runtime]"
+)
+}
+
+_set_ps_copy_flags () {
+_flags=(
+"--dyno=-[(autocomplete) specify the dyno to connect to]: :_compadd_flag_options"
+"--output=-[the name of the output file]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_exec_flags () {
+_flags=(
+"--dyno=-[(autocomplete) specify the dyno to connect to]: :_compadd_flag_options"
+"--ssh[(switch) use native ssh]"
+"--status[(switch) lists the status of the SSH server in the dyno]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_forward_flags () {
+_flags=(
+"--dyno=-[(autocomplete) specify the dyno to connect to]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_socks_flags () {
+_flags=(
+"--dyno=-[(autocomplete) specify the dyno to connect to]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_flags () {
+_flags=(
+"--json[(switch) format output as JSON]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_cli_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_credentials_flags () {
+_flags=(
+"--reset[(switch) reset credentials]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_info_flags () {
+_flags=(
+"--json[(switch) format output as JSON]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_keyspace-notifications_flags () {
+_flags=(
+"--config=-[(autocomplete) set keyspace notifications configuration]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_maintenance_flags () {
+_flags=(
+"--window=-[set weekly UTC maintenance window]"
+"--run[(switch) start maintenance]"
+"--force[(switch) start maintenance without entering application maintenance mode]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_maxmemory_flags () {
+_flags=(
+"--policy=-[set policy name]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_promote_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_stats-reset_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_timeout_flags () {
+_flags=(
+"--seconds=-[set timeout value]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_upgrade_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--version=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_redis_wait_flags () {
+_flags=(
+"--wait-interval=-[how frequently to poll in seconds]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_create_flags () {
+_flags=(
+"--space=-[name of space to create]"
+"--region=-[(autocomplete) region name]: :_compadd_flag_options"
+"--cidr=-[RFC-1918 CIDR the space will use]"
+"--data-cidr=-[RFC-1918 CIDR used by Heroku Data resources for the space]"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_destroy_flags () {
+_flags=(
+"--space=-[(autocomplete) space to destroy]: :_compadd_flag_options"
+"--confirm=-[set to space name to bypass confirm prompt]"
+)
+}
+
+_set_spaces_info_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get info of]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_peering_info_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get peering info from]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_peerings_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get peer list from]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_peerings_accept_flags () {
+_flags=(
+"--pcxid=-[PCX ID of a pending peering]"
+"--space=-[(autocomplete) space to get peering info from]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_peerings_destroy_flags () {
+_flags=(
+"--pcxid=-[PCX ID of a pending peering]"
+"--space=-[(autocomplete) space to get peering info from]: :_compadd_flag_options"
+"--confirm=-[set to PCX ID to bypass confirm prompt]"
+)
+}
+
+_set_spaces_ps_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get dynos of]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_rename_flags () {
+_flags=(
+"--from=-[current name of space]"
+"--to=-[desired name of space]"
+)
+}
+
+_set_spaces_topology_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get topology of]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_transfer_flags () {
+_flags=(
+"--space=-[(autocomplete) name of space]: :_compadd_flag_options"
+"--team=-[(autocomplete) desired owner of space]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_vpn_config_flags () {
+_flags=(
+"--space=-[(autocomplete) space the VPN connection belongs to]: :_compadd_flag_options"
+"--name=-[name or id of the VPN connection to retrieve config from]"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_vpn_connect_flags () {
+_flags=(
+"--name=-[VPN name]"
+"--ip=-[public IP of customer gateway]"
+"--cidrs=-[a list of routable CIDRs separated by commas]"
+"--space=-[(autocomplete) space name]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_vpn_connections_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get VPN connections from]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_spaces_vpn_destroy_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get peering info from]: :_compadd_flag_options"
+"--name=-[name or id of the VPN connection to retrieve config from]"
+"--confirm=-[set to VPN connection name to bypass confirm prompt]"
+)
+}
+
+_set_spaces_vpn_info_flags () {
+_flags=(
+"--space=-[(autocomplete) space the vpn connection belongs to]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+"--name=-[name or id of the VPN connection to get info from]"
+)
+}
+
+_set_spaces_vpn_update_flags () {
+_flags=(
+"--name=-[VPN name]"
+"--cidrs=-[a list of routable CIDRs separated by commas]"
+"--space=-[(autocomplete) space name]: :_compadd_flag_options"
+)
+}
+
+_set_spaces_vpn_wait_flags () {
+_flags=(
+"--space=-[(autocomplete) space the vpn connection belongs to]: :_compadd_flag_options"
+"--name=-[name or id of the vpn connection to wait for]"
+"--json[(switch) output in json format]"
+"--interval=-[seconds to wait between poll intervals]"
+"--timeout=-[maximum number of seconds to wait]"
+)
+}
+
+_set_spaces_wait_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get info of]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+"--interval=-[seconds to wait between poll intervals]"
+"--timeout=-[maximum number of seconds to wait]"
+)
+}
+
+_set_trusted-ips_flags () {
+_flags=(
+"--space=-[(autocomplete) space to get inbound rules from]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_trusted-ips_add_flags () {
+_flags=(
+"--space=-[(autocomplete) space to add rule to]: :_compadd_flag_options"
+"--confirm=-[set to space name to bypass confirm prompt]"
+)
+}
+
+_set_trusted-ips_remove_flags () {
+_flags=(
+"--space=-[(autocomplete) space to remove rule from]: :_compadd_flag_options"
+"--confirm=-[set to space name to bypass confirm prompt]"
+)
+}
+
+_set_status_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_webhooks_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_add_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--include=-[comma delimited event types your server will receive ]"
+"--level=-[notify does not retry, sync will retry until successful or timeout]"
+"--secret=-[value to sign delivery with in Heroku-Webhook-Hmac-SHA256 header]"
+"--authorization=-[authoriation header to send with webhooks]"
+"--url=-[URL for receiver]"
+)
+}
+
+_set_webhooks_deliveries_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--status=-[filter deliveries by status]"
+)
+}
+
+_set_webhooks_deliveries_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_events_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_events_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_info_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_webhooks_update_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+"--include=-[comma delimited event types your server will receive ]"
+"--level=-[notify does not retry, sync will retry until successful or timeout]"
+"--secret=-[value to sign delivery with in Heroku-Webhook-Hmac-SHA256 header]"
+"--authorization=-[authoriation header to send with webhooks]"
+"--url=-[URL for receiver]"
+)
+}
+
+_set_access_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_access_add_flags () {
+_flags=(
+"--permissions=-[list of permissions comma separated]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_access_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_access_update_flags () {
+_flags=(
+"--permissions=-[comma-delimited list of permissions to update (deploy,manage,operate)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_join_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_leave_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_lock_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_transfer_flags () {
+_flags=(
+"--locked[(switch) lock the app upon transfer]"
+"--bulk[(switch) transfer applications in bulk]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_unlock_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_join_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_leave_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_lock_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_members_flags () {
+_flags=(
+"--role=-[(autocomplete) filter by role]: :_compadd_flag_options"
+"--pending[(switch) filter by pending team invitations]"
+"--json[(switch) output in json format]"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_members_add_flags () {
+_flags=(
+"--role=-[(autocomplete) member role (admin, collaborator, member, owner)]: :_compadd_flag_options"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_members_remove_flags () {
+_flags=(
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_members_set_flags () {
+_flags=(
+"--role=-[(autocomplete) member role (admin, collaborator, member, owner)]: :_compadd_flag_options"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_orgs_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--enterprise[(switch) filter by enterprise teams]"
+)
+}
+
+_set_orgs_open_flags () {
+_flags=(
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_teams_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_unlock_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_commands_flags () {
+_flags=(
+"--json[(switch) Format output as json.]"
+"--help[(switch) Show CLI help.]"
+"--hidden[(switch) show hidden commands]"
+"--tree[(switch) show tree of commands]"
+"--columns=-[only show provided columns (comma-separated)]"
+"--sort=-[property to sort by (prepend '-' for descending)]"
+"--filter=-[filter property by partial string matching, ex: name=foo]"
+"--csv[(switch) output is csv format [alias: --output=csv]]"
+"--output=-[output in a more machine friendly format]"
+"--extended[(switch) show extra columns]"
+"--no-truncate[(switch) do not truncate output to fit screen]"
+"--no-header[(switch) hide table header from output]"
+)
+}
+
+_set_update_flags () {
+_flags=(
+"--available[(switch) Install a specific version.]"
+"--version=-[Install a specific version.]"
+"--interactive[(switch) Interactively select version to install. This is ignored if a channel is provided.]"
+"--force[(switch) Force a re-download of the requested version.]"
+)
+}
+
+_set_apps_flags () {
+_flags=(
+"--all[(switch) include apps in all teams]"
+"--json[(switch) output in json format]"
+"--space=-[(autocomplete) filter by space]: :_compadd_flag_options"
+"--personal[(switch) list apps in personal account when a default team is set]"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_create_flags () {
+_flags=(
+"--addons=-[comma-delimited list of addons to install]"
+"--buildpack=-[(autocomplete) buildpack url to use for this app]: :_compadd_flag_options"
+"--no-remote[(switch) do not create a git remote]"
+"--remote=-[(autocomplete) the git remote to create, default "heroku"]: :_compadd_flag_options"
+"--stack=-[(autocomplete) the stack to create the app on]: :_compadd_flag_options"
+"--space=-[(autocomplete) the private space to create the app in]: :_compadd_flag_options"
+"--region=-[(autocomplete) specify region for the app to run in]: :_compadd_flag_options"
+"--json[(switch) output in json format]"
+"--team=-[(autocomplete) team to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_destroy_flags () {
+_flags=(
+"--confirm=-[undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_errors_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--hours=-[number of hours to look back (default 24)]"
+"--router[(switch) show only router errors]"
+"--dyno[(switch) show only dyno errors]: :_compadd_flag_options"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_favorites_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+)
+}
+
+_set_apps_favorites_add_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_favorites_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_info_flags () {
+_flags=(
+"--shell[(switch) output more shell friendly key/value pairs]"
+"--json[(switch) undefined]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_open_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_rename_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_stacks_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_apps_stacks_set_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_config_set_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_drains_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_drains_add_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_drains_remove_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_dyno_kill_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_dyno_resize_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_dyno_restart_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_dyno_scale_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_dyno_stop_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_features_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_features_disable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_features_enable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_features_info_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_keys_flags () {
+_flags=(
+"--long[(switch) display full SSH keys]"
+"--json[(switch) output in json format]"
+)
+}
+
+_set_keys_add_flags () {
+_flags=(
+"--yes[(switch) automatically answer yes for all prompts]"
+)
+}
+
+# no flags for keys:clear
+# no flags for keys:remove
+_set_labs_flags () {
+_flags=(
+"--json[(switch) display as json]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_labs_enable_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_labs_info_flags () {
+_flags=(
+"--json[(switch) display as json]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_maintenance_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_maintenance_off_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_maintenance_on_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_notifications_flags () {
+_flags=(
+"--all[(switch) view all notifications (not just the ones for the current app)]"
+"--json[(switch) output in json format]"
+"--read[(switch) show notifications already read]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_flags () {
+_flags=(
+"--json[(switch) display as json]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_kill_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_resize_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_restart_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_scale_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_stop_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_ps_type_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_releases_flags () {
+_flags=(
+"--num=-[number of releases to show]"
+"--json[(switch) output releases in json format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_releases_info_flags () {
+_flags=(
+"--json[(switch) output in json format]"
+"--shell[(switch) output in shell format]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_releases_output_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_releases_rollback_flags () {
+_flags=(
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_help_flags () {
+_flags=(
+"--nested-commands[(switch) Include all nested commands in the output.]"
+)
+}
+
+_set_logs_flags () {
+_flags=(
+"--num=-[number of lines to display]"
+"--dyno=-[(autocomplete) dyno to limit filter by]: :_compadd_flag_options"
+"--source=-[log source to limit filter by]"
+"--tail[(switch) continually stream logs]"
+"--force-colors[(switch) force use of colors (even on non-tty output)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_run_flags () {
+_flags=(
+"--size=-[(autocomplete) dyno size]: :_compadd_flag_options"
+"--type=-[(autocomplete) process type]: :_compadd_flag_options"
+"--exit-code[(switch) passthrough the exit code of the remote command]"
+"--env=-[environment variables to set (use ';' to split multiple vars)]"
+"--no-tty[(switch) force the command to not run in a tty]"
+"--no-notify[(switch) disables notification when dyno is up (alternatively use HEROKU_NOTIFICATIONS=0)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_run_detached_flags () {
+_flags=(
+"--size=-[(autocomplete) dyno size]: :_compadd_flag_options"
+"--tail[(switch) stream logs from the dyno]"
+"--type=-[(autocomplete) process type]: :_compadd_flag_options"
+"--env=-[environment variables to set (use ';' to split multiple vars)]"
+"--app=-[(autocomplete) app to run command against]: :_compadd_flag_options"
+"--remote=-[(autocomplete) git remote of app to use]: :_compadd_flag_options"
+)
+}
+
+_set_version_flags () {
+_flags=(
+"--json[(switch) Format output as json.]"
+"--verbose[(switch) Additionally shows the architecture, node version, operating system, and versions of plugins that the CLI is using.]"
+)
+}
+
+_set_plugins_flags () {
+_flags=(
+"--core[(switch) Show core plugins.]"
+)
+}
+
+_set_plugins_inspect_flags () {
+_flags=(
+"--json[(switch) Format output as json.]"
+"--help[(switch) Show CLI help.]"
+"--verbose[(switch) undefined]"
+)
+}
+
+_set_plugins_install_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--verbose[(switch) undefined]"
+"--force[(switch) Run yarn install with force flag.]"
+)
+}
+
+_set_plugins_link_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--verbose[(switch) undefined]"
+)
+}
+
+_set_plugins_uninstall_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--verbose[(switch) undefined]"
+)
+}
+
+_set_plugins_update_flags () {
+_flags=(
+"--help[(switch) Show CLI help.]"
+"--verbose[(switch) undefined]"
+)
+}
+
+# no flags for which

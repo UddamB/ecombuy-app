@@ -1,0 +1,3 @@
+HEROKU_AC_ANALYTICS_DIR=/home/uddam/.cache/heroku/autocomplete/completion_analytics;
+HEROKU_AC_COMMANDS_PATH=/home/uddam/.cache/heroku/autocomplete/commands;
+HEROKU_AC_BASH_COMPFUNC_PATH=/home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/@heroku-cli/plugin-autocomplete/autocomplete/bash/heroku.bash && test -f $HEROKU_AC_BASH_COMPFUNC_PATH && source $HEROKU_AC_BASH_COMPFUNC_PATH;

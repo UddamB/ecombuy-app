@@ -1,0 +1,10 @@
+2023-07-25 15:25:55.053 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-25 15:25:55.053 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-25 15:25:55.053 [info] Test server listening.
+2023-07-25 15:25:55.058 [info] Python interpreter path: ./.virtualenvs/uddam-xWptzJbx/bin/python
+2023-07-25 15:25:55.132 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-25 15:25:55.132 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-25 15:25:55.132 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-25 15:25:55.132 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-07-25 15:25:55.552 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-07-25 15:25:56.433 [info] Starting Pylance language server.

@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Tryb sprawdzania typu języka Python",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Kontrola typów: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Wyłącz",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Włącz",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "Aktualizacja ustawienia „{0}.{1}” zakończyła się niepowodzeniem.",
+    "Common.No": "Nie",
+    "Common.Yes": "Tak",
+    "Common.reload": "Załaduj ponownie",
+    "Common.remindMeLater": "Przypomnij mi później",
+    "Insiders.installingPreRelease": "Trwa instalowanie wstępnej kompilacji rozszerzenia Pylance...",
+    "LanguageServer.settingsMigratedMessage": "Ustawienia dotyczące serwera języka firmy Microsoft zostały skopiowane do ustawień rozszerzenia Pylance. Sprawdź pliki settings.json, aby uzyskać szczegółowe informacje.",
+    "LanguageServer.settingsMigrationError": "Nie można przeprowadzić migracji następujących ustawień:",
+    "Refactoring.MoveSymbol.newFileDetail": "Wprowadź ścieżkę lub wybierz plik docelowy",
+    "Refactoring.MoveSymbol.newFileLabel": "Wprowadź ścieżkę do pliku docelowego ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Wybierz",
+    "Refactoring.MoveSymbol.openDialogTitle": "Wybierz nowy plik, do którego chcesz przenieść symbol...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Przenieś symbol do...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Wyszukaj plik docelowy",
+    "Refactoring.MoveSymbol.quickPickTitle": "Wybierz lokalizację docelową do przeniesienia",
+    "Refactoring.MoveSymbol.separatorText": "Pliki docelowe..."
+}

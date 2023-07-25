@@ -1,0 +1,18 @@
+{
+  "name": "node-vsce-sign",
+  "description": "Visual Studio Code extension package signing and verification module",
+  "version": "0.0.1",
+  "author": {
+    "name": "Microsoft"
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "homepage": "https://github.com/Microsoft/node-vscode-sign",
+  "main": "src/main.js",
+  "scripts": {
+    "postinstall": "node ./src/postinstall.js",
+    "test": "mocha ./src/test/*.test.js --timeout 5s --fail-zero --exit"
+  }
+}

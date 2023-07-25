@@ -1,0 +1,9 @@
+2023-07-25 17:35:41.131 [info] [Info  - 5:35:41 PM] (8589) Pylance language server 2023.7.30 (pyright 74d8f3c4) starting
+2023-07-25 17:35:41.131 [info] [Info  - 5:35:41 PM] (8589) Server root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-25 17:35:41.131 [info] [Info  - 5:35:41 PM] (8589) Starting service instance "uddam"
+2023-07-25 17:35:41.168 [info] [Info  - 5:35:41 PM] (8589) Setting pythonPath for service "uddam": "/home/uddam/.virtualenvs/uddam-xWptzJbx/bin/python"
+2023-07-25 17:35:41.170 [info] [Warn  - 5:35:41 PM] (8589) stubPath /home/uddam/typings is not a valid directory.
+2023-07-25 17:35:41.207 [info] [Info  - 5:35:41 PM] (8589) Assuming Python version 3.9
+2023-07-25 17:35:41.285 [info] [Info  - 5:35:41 PM] (8589) Found 80 source files
+2023-07-25 17:35:41.467 [info] [Info  - 5:35:41 PM] (8589) Background analysis(1) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-25 17:35:41.469 [info] [Info  - 5:35:41 PM] (8589) Background analysis(1) started

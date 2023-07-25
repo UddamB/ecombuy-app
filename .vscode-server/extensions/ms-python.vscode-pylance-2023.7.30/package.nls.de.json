@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python-Typüberprüfungsmodus",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Typüberprüfung: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Wechseln zu aus",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Wechseln zu ein",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "Aktualisierung der Einstellung '{0}.{1}' fehlgeschlagen.",
+    "Common.No": "Nein",
+    "Common.Yes": "Ja",
+    "Common.reload": "Neu laden",
+    "Common.remindMeLater": "Später erinnern",
+    "Insiders.installingPreRelease": "Vorabversionsbuild für Pylance wird installiert...",
+    "LanguageServer.settingsMigratedMessage": "Für Microsoft Language Server geltende Einstellungen wurden in die Pylanceeinstellungen kopiert. Weitere Informationen finden Sie in den settings.json-Dateien.",
+    "LanguageServer.settingsMigrationError": "Die folgenden Einstellungen konnten nicht migriert werden:",
+    "Refactoring.MoveSymbol.newFileDetail": "Pfad eingeben oder Zieldatei auswählen",
+    "Refactoring.MoveSymbol.newFileLabel": "Zieldateipfad eingaben ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Auswählen",
+    "Refactoring.MoveSymbol.openDialogTitle": "Wählen Sie eine neue Datei aus, in die das Symbol verschoben werden soll...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Symbol verschieben nach ...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Zieldatei suchen",
+    "Refactoring.MoveSymbol.quickPickTitle": "Ziel für Verschiebung auswählen",
+    "Refactoring.MoveSymbol.separatorText": "Zieldateien ..."
+}

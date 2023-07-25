@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python Tür Denetimi Modu",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Tür Denetimi: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Geçiş kapalı",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Geçiş açık",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "'{0}.{1}' ayarı güncelleştirilemiyor.",
+    "Common.No": "Hayır",
+    "Common.Yes": "Evet",
+    "Common.reload": "Yeniden yükle",
+    "Common.remindMeLater": "Daha sonra anımsat",
+    "Insiders.installingPreRelease": "Pylance yayın öncesi derlemesi yükleniyor...",
+    "LanguageServer.settingsMigratedMessage": "Microsoft Language Server için geçerli olan ayarlar Pylance ayarlarına kopyalandı. Ayrıntılar için lütfen settings.json dosyasına bakın.",
+    "LanguageServer.settingsMigrationError": "Aşağıdaki ayarlar geçirilemedi:",
+    "Refactoring.MoveSymbol.newFileDetail": "Yolu girin veya hedef dosyayı seçin",
+    "Refactoring.MoveSymbol.newFileLabel": "Hedef dosya yolunu girin ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Seç",
+    "Refactoring.MoveSymbol.openDialogTitle": "Simgeyi taşımak için yeni dosya seçin...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Simgeyi Taşı ...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Hedef dosyayı ara",
+    "Refactoring.MoveSymbol.quickPickTitle": "Taşınacak hedefi seçin",
+    "Refactoring.MoveSymbol.separatorText": "Hedef Dosyalar ..."
+}

@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python 类型检查模式",
+    "ClientLoc.typeCheckingModeStatusItem.text": "类型检查: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "切换到关闭",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "切换到打开",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "无法更新设置 '{0}.{1}'。",
+    "Common.No": "否",
+    "Common.Yes": "是",
+    "Common.reload": "重新加载",
+    "Common.remindMeLater": "稍后提醒我",
+    "Insiders.installingPreRelease": "正在安装 Pylance 预发行版本...",
+    "LanguageServer.settingsMigratedMessage": "适用于 Microsoft 语言服务器的设置已复制到 Pylance 设置。有关详细信息，请查看 settings.json 文件。",
+    "LanguageServer.settingsMigrationError": "无法迁移以下设置:",
+    "Refactoring.MoveSymbol.newFileDetail": "输入路径或选择目标文件",
+    "Refactoring.MoveSymbol.newFileLabel": "输入目标文件路径 ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "选择",
+    "Refactoring.MoveSymbol.openDialogTitle": "选择新文件以移动符号至 ...",
+    "Refactoring.MoveSymbol.progressBarTitle": "将符号移动到 ...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "搜索目标文件",
+    "Refactoring.MoveSymbol.quickPickTitle": "选择要移动的目标",
+    "Refactoring.MoveSymbol.separatorText": "目标文件 ..."
+}

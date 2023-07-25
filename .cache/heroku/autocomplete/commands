@@ -1,0 +1,299 @@
+addons --all --json --app --remote
+addons:attach --as --credential --confirm --app --remote
+addons:create --name --as --confirm --wait --app --remote
+addons:destroy --force --confirm --app --remote
+addons:detach --app --remote
+addons:docs --show-url --app --remote
+addons:downgrade --app --remote
+addons:info --app --remote
+addons:open --show-url --app --remote
+addons:plans --json
+addons:rename --app --remote
+addons:services --json
+addons:upgrade --app --remote
+addons:wait --wait-interval --app --remote
+domains --help --app --remote --json --columns --sort --filter --csv --output --extended --no-header
+domains:add --help --app --cert --json --wait --remote
+domains:clear --help --app --remote
+domains:info --help --app --remote
+domains:remove --help --app --remote
+domains:update --help --app --remote --cert
+domains:wait --help --app --remote
+autocomplete --refresh-cache
+auth:2fa 
+auth:2fa:disable 
+auth:login --browser --interactive --expires-in
+auth:logout 
+auth:token --help
+auth:whoami 
+labs:disable --app --remote --confirm
+buildpacks --app --remote
+buildpacks:add --app --remote --index
+buildpacks:clear --app --remote
+buildpacks:info 
+buildpacks:remove --app --remote --index
+buildpacks:search --namespace --name --description
+buildpacks:set --app --remote --index
+buildpacks:versions 
+ci:config --shell --json --pipeline --app --remote
+ci:config:get --shell --pipeline --app --remote
+ci:config:set --pipeline --app --remote
+ci:config:unset --pipeline --app --remote
+ci:debug --no-setup --pipeline --no-cache --app --remote
+ci:migrate-manifest 
+ci:open --pipeline --app --remote
+certs --app --remote
+certs:add --bypass --app --remote
+certs:auto --wait --app --remote
+certs:auto:disable --app --remote
+certs:auto:enable --wait --app --remote
+certs:auto:refresh --app --remote
+certs:chain --app --remote
+certs:generate --selfsigned --keysize --owner --country --area --city --subject --now --app --remote
+certs:info --name --endpoint --show-domains --app --remote
+certs:key --app --remote
+certs:remove --name --endpoint --app --remote
+certs:update --bypass --name --endpoint --app --remote
+ci --app --watch --pipeline --json
+ci:info --app --node --pipeline
+ci:last --app --node --pipeline
+ci:rerun --app --pipeline
+ci:run --app --pipeline
+config --app --remote --shell --json
+config:edit --app --remote
+config:get --app --remote --shell
+config:unset --app --remote
+container 
+container:login --verbose
+container:logout --verbose
+container:pull --verbose --app --remote
+container:push --verbose --recursive --arg --context-path --app --remote
+container:release --verbose --app --remote
+container:rm --app --remote
+container:run --port --verbose --app --remote
+local --procfile --env --port
+local:run --env --port
+local:version 
+authorizations --json
+authorizations:create --description --scope --expires-in --short --json
+authorizations:info --json
+authorizations:revoke 
+authorizations:rotate 
+authorizations:update --description --client-id --client-secret
+clients --json
+clients:create --shell --json
+clients:destroy 
+clients:info --json --shell
+clients:rotate --json --shell
+clients:update --name --url
+sessions --json
+sessions:destroy 
+git:clone --app --remote
+git:remote --app --remote
+pg --app --remote
+pg:backups --app --remote
+pg:backups:cancel --app --remote
+pg:backups:capture --wait-interval --verbose --app --remote
+pg:backups:delete --confirm --app --remote
+pg:backups:download --output --app --remote
+pg:backups:info --app --remote
+pg:backups:restore --wait-interval --extensions --verbose --confirm --app --remote
+pg:backups:schedule --at --app --remote
+pg:backups:schedules --app --remote
+pg:backups:unschedule --app --remote
+pg:backups:url --app --remote
+pg:bloat --app --remote
+pg:blocking --app --remote
+pg:connection-pooling:attach --as --app --remote
+pg:copy --wait-interval --verbose --confirm --app --remote
+pg:credentials --app --remote
+pg:credentials:create --name --app --remote
+pg:credentials:destroy --name --confirm --app --remote
+pg:credentials:repair-default --confirm --app --remote
+pg:credentials:rotate --name --all --confirm --force --app --remote
+pg:credentials:url --name --app --remote
+pg:diagnose --json --app --remote
+pg:info --app --remote
+pg:kill --force --app --remote
+pg:killall --app --remote
+pg:links --app --remote
+pg:links:create --as --app --remote
+pg:links:destroy --confirm --app --remote
+pg:locks --truncate --app --remote
+pg:maintenance --app --remote
+pg:maintenance:run --force --app --remote
+pg:maintenance:window --app --remote
+pg:outliers --reset --truncate --num --app --remote
+pg:promote --force --app --remote
+pg:ps --verbose --app --remote
+pg:psql --command --file --credential --app --remote
+pg:pull --exclude-table-data --app --remote
+pg:push --exclude-table-data --app --remote
+pg:reset --extensions --confirm --app --remote
+pg:settings --app --remote
+pg:settings:auto-explain --app --remote
+pg:settings:auto-explain:log-analyze --app --remote
+pg:settings:auto-explain:log-buffers --app --remote
+pg:settings:auto-explain:log-min-duration --app --remote
+pg:settings:auto-explain:log-nested-statements --app --remote
+pg:settings:auto-explain:log-triggers --app --remote
+pg:settings:auto-explain:log-verbose --app --remote
+pg:settings:log-lock-waits --app --remote
+pg:settings:log-min-duration-statement --app --remote
+pg:settings:log-statement --app --remote
+pg:settings:track-functions --app --remote
+pg:unfollow --confirm --app --remote
+pg:upgrade --confirm --version --app --remote
+pg:vacuum-stats --app --remote
+pg:wait --wait-interval --no-notify --app --remote
+psql --command --file --credential --app --remote
+pipelines --json
+pipelines:add --app --remote --stage
+pipelines:connect --repo
+pipelines:create --app --remote --stage --team
+pipelines:destroy 
+pipelines:diff --app --remote
+pipelines:info --json
+pipelines:open 
+pipelines:promote --app --remote --to
+pipelines:remove --app --remote
+pipelines:rename 
+pipelines:setup --team --yes
+pipelines:transfer --pipeline --confirm
+pipelines:update --app --remote --stage
+reviewapps:disable --app --remote --pipeline --no-autodeploy --no-autodestroy --no-wait-for-ci
+reviewapps:enable --app --remote --pipeline --autodeploy --autodestroy --wait-for-ci
+ps:autoscale:disable --app --remote
+ps:autoscale:enable --app --remote --min --max --p95 --notifications
+ps:wait --app --remote --type --wait-interval --with-run
+regions --json --private --common
+ps:copy --dyno --output --app --remote
+ps:exec --dyno --ssh --status --app --remote
+ps:forward --dyno --app --remote
+ps:socks --dyno --app --remote
+redis --json --app --remote
+redis:cli --confirm --app --remote
+redis:credentials --reset --app --remote
+redis:info --json --app --remote
+redis:keyspace-notifications --config --app --remote
+redis:maintenance --window --run --force --app --remote
+redis:maxmemory --policy --app --remote
+redis:promote --app --remote
+redis:stats-reset --confirm --app --remote
+redis:timeout --seconds --app --remote
+redis:upgrade --confirm --version --app --remote
+redis:wait --wait-interval --app --remote
+spaces --json --team
+spaces:create --space --region --cidr --data-cidr --team
+spaces:destroy --space --confirm
+spaces:info --space --json
+spaces:peering:info --space --json
+spaces:peerings --space --json
+spaces:peerings:accept --pcxid --space
+spaces:peerings:destroy --pcxid --space --confirm
+spaces:ps --space --json
+spaces:rename --from --to
+spaces:topology --space --json
+spaces:transfer --space --team
+spaces:vpn:config --space --name --json
+spaces:vpn:connect --name --ip --cidrs --space
+spaces:vpn:connections --space --json
+spaces:vpn:destroy --space --name --confirm
+spaces:vpn:info --space --json --name
+spaces:vpn:update --name --cidrs --space
+spaces:vpn:wait --space --name --json --interval --timeout
+spaces:wait --space --json --interval --timeout
+trusted-ips --space --json
+trusted-ips:add --space --confirm
+trusted-ips:remove --space --confirm
+status --json
+webhooks --app --remote
+webhooks:add --app --remote --include --level --secret --authorization --url
+webhooks:deliveries --app --remote --status
+webhooks:deliveries:info --app --remote
+webhooks:events --app --remote
+webhooks:events:info --app --remote
+webhooks:info --app --remote
+webhooks:remove --app --remote
+webhooks:update --app --remote --include --level --secret --authorization --url
+access --json --app --remote
+access:add --permissions --app --remote
+access:remove --app --remote
+access:update --permissions --app --remote
+apps:join --app --remote
+apps:leave --app --remote
+apps:lock --app --remote
+apps:transfer --locked --bulk --app --remote
+apps:unlock --app --remote
+join --app --remote
+leave --app --remote
+lock --app --remote
+members --role --pending --json --team
+members:add --role --team
+members:remove --team
+members:set --role --team
+orgs --json --enterprise
+orgs:open --team
+teams --json
+unlock --app --remote
+commands --json --help --hidden --tree --columns --sort --filter --csv --output --extended --no-truncate --no-header
+update --available --version --interactive --force
+apps --all --json --space --personal --team
+apps:create --addons --buildpack --no-remote --remote --stack --space --region --json --team
+apps:destroy --confirm --app --remote
+apps:errors --json --hours --router --dyno --app --remote
+apps:favorites --json
+apps:favorites:add --app --remote
+apps:favorites:remove --app --remote
+apps:info --shell --json --app --remote
+apps:open --app --remote
+apps:rename --app --remote
+apps:stacks --app --remote
+apps:stacks:set --app --remote
+config:set --app --remote
+drains --json --app --remote
+drains:add --app --remote
+drains:remove --app --remote
+dyno:kill --app --remote
+dyno:resize --app --remote
+dyno:restart --app --remote
+dyno:scale --app --remote
+dyno:stop --app --remote
+features --json --app --remote
+features:disable --app --remote
+features:enable --app --remote
+features:info --json --app --remote
+keys --long --json
+keys:add --yes
+keys:clear 
+keys:remove 
+labs --json --app --remote
+labs:enable --app --remote
+labs:info --json --app --remote
+maintenance --app --remote
+maintenance:off --app --remote
+maintenance:on --app --remote
+notifications --all --json --read --app --remote
+ps --json --app --remote
+ps:kill --app --remote
+ps:resize --app --remote
+ps:restart --app --remote
+ps:scale --app --remote
+ps:stop --app --remote
+ps:type --app --remote
+releases --num --json --app --remote
+releases:info --json --shell --app --remote
+releases:output --app --remote
+releases:rollback --app --remote
+help --nested-commands
+logs --num --dyno --source --tail --force-colors --app --remote
+run --size --type --exit-code --env --no-tty --no-notify --app --remote
+run:detached --size --tail --type --env --app --remote
+version --json --verbose
+plugins --core
+plugins:inspect --json --help --verbose
+plugins:install --help --verbose --force
+plugins:link --help --verbose
+plugins:uninstall --help --verbose
+plugins:update --help --verbose
+which 

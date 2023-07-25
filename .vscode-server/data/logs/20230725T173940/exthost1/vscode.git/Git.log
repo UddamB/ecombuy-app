@@ -1,0 +1,58 @@
+2023-07-25 17:39:41.890 [info] Log level: Info
+2023-07-25 17:39:41.890 [info] Validating found git in: "git"
+2023-07-25 17:39:41.890 [info] Using git "2.34.1" from "git"
+2023-07-25 17:39:41.893 [info] > git rev-parse --show-toplevel [28ms]
+2023-07-25 17:39:41.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.898 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:39:41.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.915 [info] > git rev-parse --show-toplevel [13ms]
+2023-07-25 17:39:41.915 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.920 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 17:39:41.920 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.948 [info] > git rev-parse --show-toplevel [24ms]
+2023-07-25 17:39:41.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.956 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 17:39:41.957 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.962 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:39:41.962 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.967 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:39:41.967 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.972 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 17:39:41.972 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.977 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:39:41.977 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.985 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-25 17:39:41.985 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:41.995 [info] > git rev-parse --show-toplevel [6ms]
+2023-07-25 17:39:41.996 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.002 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-25 17:39:42.002 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.011 [info] > git rev-parse --show-toplevel [5ms]
+2023-07-25 17:39:42.011 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.017 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 17:39:42.017 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.024 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 17:39:42.024 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.031 [info] > git rev-parse --show-toplevel [3ms]
+2023-07-25 17:39:42.031 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.043 [info] > git rev-parse --show-toplevel [8ms]
+2023-07-25 17:39:42.043 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.054 [info] > git rev-parse --show-toplevel [7ms]
+2023-07-25 17:39:42.054 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.060 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:39:42.060 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:39:42.070 [info] > git rev-parse --show-toplevel [4ms]
+2023-07-25 17:39:42.070 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-25 17:40:40.672 [info] > git init -b main [7ms]
+2023-07-25 17:40:40.675 [info] > git rev-parse --show-toplevel [1ms]
+2023-07-25 17:40:40.679 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-07-25 17:40:40.687 [info] Open repository: /home/uddam
+2023-07-25 17:40:40.697 [info] > git config --get commit.template [1ms]
+2023-07-25 17:40:40.701 [info] No remotes found in the git config file.
+2023-07-25 17:40:40.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-07-25 17:40:40.811 [info] > git status -z -uall [105ms] (cancelled)
+2023-07-25 17:40:41.034 [info] > git show --textconv :.gitconfig [7ms]
+2023-07-25 17:40:41.034 [info] > git ls-files --stage -- /home/uddam/.gitconfig [1ms]
+2023-07-25 17:40:41.275 [info] > git check-ignore -v -z --stdin [0ms]
+2023-07-25 17:40:41.960 [info] > git ls-files --stage -- /home/uddam/.gitconfig [1ms]
+2023-07-25 17:40:42.009 [info] > git show --textconv :.gitconfig [0ms]

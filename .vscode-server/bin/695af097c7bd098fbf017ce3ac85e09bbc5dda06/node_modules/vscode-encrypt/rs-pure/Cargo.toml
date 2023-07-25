@@ -1,0 +1,11 @@
+[package]
+name = "vscode-encrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+"base64" = "0.13"
+openssl = "^0.10.40"
+
+[features]
+vendored-openssl = ["openssl/vendored"]

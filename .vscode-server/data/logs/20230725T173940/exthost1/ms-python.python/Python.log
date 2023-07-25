@@ -1,0 +1,7 @@
+2023-07-25 17:39:41.852 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-25 17:39:41.852 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-25 17:39:41.889 [info] Test server listening.
+2023-07-25 17:39:42.040 [info] > ./.virtualenvs/uddam-xWptzJbx/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-25 17:39:42.082 [info] Python interpreter path: ./.virtualenvs/uddam-xWptzJbx/bin/python
+2023-07-25 17:39:42.312 [info] Send text to terminal: source /home/uddam/.virtualenvs/uddam-xWptzJbx/bin/activate
+2023-07-25 17:39:43.217 [info] Starting Pylance language server.

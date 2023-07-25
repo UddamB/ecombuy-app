@@ -1,0 +1,25 @@
+{
+  "name": "vscode-encrypt",
+  "version": "1.0.0",
+  "description": "Encryption for VSCode",
+  "main": "lib/index.js",
+  "typings": "vscode-encrypt.d.ts",
+  "author": "",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "prepublish": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint lib/*.ts typings/*.ts *.ts"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^12.11.7",
+    "mocha": "^10.0.0",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python 型チェック モード",
+    "ClientLoc.typeCheckingModeStatusItem.text": "型チェック: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "オフに切り替える",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "オンに切り替える",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "設定 '{0}.{1}' を更新できませんでした。",
+    "Common.No": "いいえ",
+    "Common.Yes": "はい",
+    "Common.reload": "再読み込み",
+    "Common.remindMeLater": "後で通知する",
+    "Insiders.installingPreRelease": "Pylance プレリリース ビルドをインストールしています...",
+    "LanguageServer.settingsMigratedMessage": "Microsoft Language Server に適用される設定が Pylance 設定にコピーされました。詳細については、settings.json ファイルを確認してください。",
+    "LanguageServer.settingsMigrationError": "次の設定を移行できませんでした:",
+    "Refactoring.MoveSymbol.newFileDetail": "パスを入力するか、コピー先ファイルを選択します",
+    "Refactoring.MoveSymbol.newFileLabel": "コピー先ファイルのパスを入力...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "選択",
+    "Refactoring.MoveSymbol.openDialogTitle": "シンボルを ... に移動するには、新しいファイルを選択します。",
+    "Refactoring.MoveSymbol.progressBarTitle": "シンボルをに移動...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "検索先ファイル",
+    "Refactoring.MoveSymbol.quickPickTitle": "移動先の選択",
+    "Refactoring.MoveSymbol.separatorText": "宛先ファイル..."
+}

@@ -1,0 +1,46 @@
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: "16.x"
+
+- script: |
+    set -e
+    npm install -g node-gyp@latest
+    node-gyp --version
+  displayName: Update node-gyp
+  condition: and(succeeded(), eq(variables['VSCODE_ARCH'], 'arm64'))
+
+- script: |
+    set -e
+    export npm_config_arch="$(VSCODE_ARCH)"
+    yarn
+  displayName: Install Dependencies
+
+- script: |
+    set -e
+    yarn prepublish
+  displayName: Build
+
+- script: |
+    set -e
+    yarn test
+  displayName: Run Tests
+  condition: and(succeeded(), eq(variables['VSCODE_ARCH'], 'x64'))
+
+- script: |
+    set -e
+    curl https://sh.rustup.rs -sSf | sh -s -- -y --profile minimal
+    echo "##vso[task.setvariable variable=PATH;]$PATH:$HOME/.cargo/bin"
+  displayName: Install Rust
+
+- script: |
+    set -e
+    cargo test --features vendored-openssl
+  displayName: Test Rust Bindings
+  workingDirectory: rs
+
+- script: |
+    set -e
+    cargo test
+  displayName: Test Rust Native
+  workingDirectory: rs-pure

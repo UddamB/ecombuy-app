@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Modo de comprobación de tipos en Python",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Comprobación del tipo: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Cambiar a apagado",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Cambiar a encendido",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "No se pudo actualizar la configuración '{0}.{1}'.",
+    "Common.No": "No",
+    "Common.Yes": "Sí",
+    "Common.reload": "Recargar",
+    "Common.remindMeLater": "Recordármelo más tarde",
+    "Insiders.installingPreRelease": "Instalando compilación de versión preliminar de Pylance...",
+    "LanguageServer.settingsMigratedMessage": "La configuración aplicable a Microsoft Language Server se copió en la configuración de Pylance. Compruebe los archivos settings.json para obtener más información.",
+    "LanguageServer.settingsMigrationError": "No se ha podido migrar la siguiente configuración:",
+    "Refactoring.MoveSymbol.newFileDetail": "Introduzca la ruta o seleccione el archivo de destino",
+    "Refactoring.MoveSymbol.newFileLabel": "Introduzca la ruta del archivo de destino ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Seleccionar",
+    "Refactoring.MoveSymbol.openDialogTitle": "Seleccione el nuevo archivo al que mover el símbolo...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Mover símbolo a ...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Buscar archivo de destino",
+    "Refactoring.MoveSymbol.quickPickTitle": "Seleccione el destino del traslado",
+    "Refactoring.MoveSymbol.separatorText": "Archivos de destino ..."
+}

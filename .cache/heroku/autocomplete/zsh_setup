@@ -1,0 +1,16 @@
+expand-or-complete-with-dots() {
+  echo -n "..."
+  zle expand-or-complete
+  zle redisplay
+}
+zle -N expand-or-complete-with-dots
+bindkey "^I" expand-or-complete-with-dots
+HEROKU_AC_ANALYTICS_DIR=/home/uddam/.cache/heroku/autocomplete/completion_analytics;
+HEROKU_AC_COMMANDS_PATH=/home/uddam/.cache/heroku/autocomplete/commands;
+HEROKU_AC_ZSH_SETTERS_PATH=${HEROKU_AC_COMMANDS_PATH}_setters && test -f $HEROKU_AC_ZSH_SETTERS_PATH && source $HEROKU_AC_ZSH_SETTERS_PATH;
+fpath=(
+/home/uddam/.local/share/heroku/client/8.1.9-ba951f2/node_modules/@heroku-cli/plugin-autocomplete/autocomplete/zsh
+$fpath
+);
+autoload -Uz compinit;
+compinit;

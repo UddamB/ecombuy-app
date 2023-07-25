@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python 유형 검사 모드",
+    "ClientLoc.typeCheckingModeStatusItem.text": "형식 검사: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "끄기로 전환",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "켜기로 전환",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "‘{0}.{1}‘ 설정을 업데이트할 수 없습니다.",
+    "Common.No": "아니요",
+    "Common.Yes": "예",
+    "Common.reload": "다시 로드",
+    "Common.remindMeLater": "나중에 알림",
+    "Insiders.installingPreRelease": "Pylance 시험판 빌드를 설치하는 중...",
+    "LanguageServer.settingsMigratedMessage": "Microsoft 언어 서버에 적용할 수 있는 설정이 Pylance 설정에 복사되었습니다. 자세한 내용은 settings.json 파일을 확인하세요.",
+    "LanguageServer.settingsMigrationError": "다음 설정을 마이그레이션할 수 없습니다.",
+    "Refactoring.MoveSymbol.newFileDetail": "경로 입력 또는 대상 파일 선택",
+    "Refactoring.MoveSymbol.newFileLabel": "대상 파일 경로 입력 ...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "선택",
+    "Refactoring.MoveSymbol.openDialogTitle": "기호를 이동할 새 파일 선택...",
+    "Refactoring.MoveSymbol.progressBarTitle": "기호를 다음으로 이동...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "대상 파일 검색",
+    "Refactoring.MoveSymbol.quickPickTitle": "이동할 대상 선택",
+    "Refactoring.MoveSymbol.separatorText": "대상 파일..."
+}

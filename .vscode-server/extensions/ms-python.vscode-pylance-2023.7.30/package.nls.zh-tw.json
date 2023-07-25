@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Python 類型檢查模式",
+    "ClientLoc.typeCheckingModeStatusItem.text": "類型檢查: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "切換為關閉",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "切換為開啟",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "無法更新設定 '{0}.{1}'。",
+    "Common.No": "否",
+    "Common.Yes": "是",
+    "Common.reload": "重新載入",
+    "Common.remindMeLater": "稍後提醒我",
+    "Insiders.installingPreRelease": "正在安裝 Pylance 發行前版本組建...",
+    "LanguageServer.settingsMigratedMessage": "適用於 Microsoft 語言伺服器的設定已複製到 Pylance 設定。如需詳細資料，請查看 settings.json 檔案。",
+    "LanguageServer.settingsMigrationError": "無法移轉下列設定:",
+    "Refactoring.MoveSymbol.newFileDetail": "輸入路徑或選取目的地檔案",
+    "Refactoring.MoveSymbol.newFileLabel": "輸入目的地檔案路徑...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "選取",
+    "Refactoring.MoveSymbol.openDialogTitle": "選取新檔案以將符號移至 ...",
+    "Refactoring.MoveSymbol.progressBarTitle": "移動符號至...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "搜尋目的地檔案",
+    "Refactoring.MoveSymbol.quickPickTitle": "選取要移動的目的地",
+    "Refactoring.MoveSymbol.separatorText": "目的地檔案..."
+}

@@ -1,0 +1,38 @@
+2023-07-24 20:36:26.436 [info] [Info  - 8:36:26 PM] (242) Pylance language server 2023.7.30 (pyright 74d8f3c4) starting
+2023-07-24 20:36:26.437 [info] [Info  - 8:36:26 PM] (242) Server root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-24 20:36:26.437 [info] [Info  - 8:36:26 PM] (242) Starting service instance "uddam"
+2023-07-24 20:36:26.464 [info] [Info  - 8:36:26 PM] (242) Setting pythonPath for service "uddam": "/home/uddam/newenv/bin/python"
+2023-07-24 20:36:26.468 [info] [Warn  - 8:36:26 PM] (242) stubPath /home/uddam/typings is not a valid directory.
+2023-07-24 20:36:26.493 [info] [Info  - 8:36:26 PM] (242) Assuming Python version 3.9
+2023-07-24 20:36:26.574 [info] [Info  - 8:36:26 PM] (242) Auto-excluding /home/uddam/newenv
+2023-07-24 20:36:26.574 [info] [Info  - 8:36:26 PM] (242) Auto-excluding /home/uddam/newproject/newenv
+2023-07-24 20:36:26.603 [info] [Info  - 8:36:26 PM] (242) Found 215 source files
+2023-07-24 20:36:26.796 [info] [Info  - 8:36:26 PM] (242) Background analysis(1) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist
+2023-07-24 20:36:26.798 [info] [Info  - 8:36:26 PM] (242) Background analysis(1) started
+2023-07-24 20:44:54.989 [info] [Info  - 8:44:54 PM] (242) Found 147 source files
+2023-07-24 20:44:55.364 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/manage.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/manage.py'
+2023-07-24 20:44:55.447 [info] [Info  - 8:44:55 PM] (242) Found 126 source files
+2023-07-24 20:44:55.797 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/__init__.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/__init__.py'
+2023-07-24 20:44:55.798 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/admin.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/admin.py'
+2023-07-24 20:44:55.820 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/apps.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/apps.py'
+2023-07-24 20:44:55.842 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/models.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/models.py'
+2023-07-24 20:44:55.861 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/tests.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/tests.py'
+2023-07-24 20:44:55.880 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/urls.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/urls.py'
+2023-07-24 20:44:55.900 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/views.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/views.py'
+2023-07-24 20:44:55.921 [info] [Error - 8:44:55 PM] (242) Error reading file "/home/uddam/newproject/storefront2/playground/migrations/__init__.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/playground/migrations/__init__.py'
+2023-07-24 20:44:55.960 [info] [Info  - 8:44:55 PM] (242) Found 104 source files
+2023-07-24 20:44:56.246 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0001_initial.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0001_initial.py'
+2023-07-24 20:44:56.247 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0002_rename_price_to_unit_price.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0002_rename_price_to_unit_price.py'
+2023-07-24 20:44:56.268 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0003_add_slug_to_product.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0003_add_slug_to_product.py'
+2023-07-24 20:44:56.289 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0004_auto_20210610_1442.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0004_auto_20210610_1442.py'
+2023-07-24 20:44:56.310 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0005_auto_20210625_1631.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0005_auto_20210625_1631.py'
+2023-07-24 20:44:56.330 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0006_alter_collection_featured_product_and_more.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0006_alter_collection_featured_product_and_more.py'
+2023-07-24 20:44:56.351 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0007_alter_cart_id.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0007_alter_cart_id.py'
+2023-07-24 20:44:56.373 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0008_alter_cartitem_cart_alter_cartitem_unique_together.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0008_alter_cartitem_cart_alter_cartitem_unique_together.py'
+2023-07-24 20:44:56.393 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0009_alter_cartitem_quantity.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0009_alter_cartitem_quantity.py'
+2023-07-24 20:44:56.413 [info] [Error - 8:44:56 PM] (242) Error reading file "/home/uddam/newproject/storefront2/store/migrations/0010_alter_customer_options_remove_customer_email_and_more.py": Error: ENOENT: no such file or directory, stat '/home/uddam/newproject/storefront2/store/migrations/0010_alter_customer_options_remove_customer_email_and_more.py'
+2023-07-24 20:44:56.473 [info] [Info  - 8:44:56 PM] (242) Found 80 source files
+2023-07-24 20:48:23.055 [info] [Info  - 8:48:23 PM] (242) Indexer background runner(2) root directory: /home/uddam/.vscode-server/extensions/ms-python.vscode-pylance-2023.7.30/dist (refresh)
+2023-07-24 20:48:23.056 [info] [Info  - 8:48:23 PM] (242) Indexing(2) started
+2023-07-24 20:48:23.342 [info] [Info  - 8:48:23 PM] (242) scanned(2) 0 files over 1 exec env
+2023-07-24 20:48:23.361 [info] [Info  - 8:48:23 PM] (242) Indexing finished(2).

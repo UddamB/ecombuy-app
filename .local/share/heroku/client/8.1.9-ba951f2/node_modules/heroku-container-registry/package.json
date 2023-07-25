@@ -1,0 +1,15 @@
+{
+  "name": "heroku-container-registry",
+  "description": "Use containers to build and deploy Heroku apps",
+  "version": "4.99.0",
+  "author": "Heroku",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/heroku/heroku-container-registry"
+}

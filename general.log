@@ -1,0 +1,179 @@
+Watching for file changes with StatReloader
+Unauthorized: /store/collections/
+Forbidden: /store/collections/
+Bad Request: /store/collections/
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+/home/uddam/playground/views.py changed, reloading.
+Watching for file changes with StatReloader
+Calling httpbin
+Received the response
+Calling httpbin
+Not Found: /playground/
+Received the response
+Calling httpbin
+Received the response
+/home/uddam/storefront/settings.py changed, reloading.
+2023-07-14 09:32:31,157 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-14 09:32:31,281 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:33:02,308 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-14 09:33:02,314 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-14 09:33:02,320 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-14 09:33:22,191 (INFO) - django.utils.autoreload - /home/uddam/storefront/wsgi.py changed, reloading.
+2023-07-14 09:33:22,661 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-14 09:33:22,803 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:34:09,609 (INFO) - django.utils.autoreload - /home/uddam/storefront/settings/common.py changed, reloading.
+2023-07-14 09:34:10,246 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-14 09:34:10,375 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:34:18,723 (INFO) - django.utils.autoreload - /home/uddam/storefront/settings/common.py changed, reloading.
+2023-07-14 09:34:19,455 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-14 09:34:19,605 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:34:27,043 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-14 09:34:27,060 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-14 09:34:27,078 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-14 09:36:12,243 (INFO) - django.utils.autoreload - /home/uddam/newenv/lib/python3.9/site-packages/click/parser.py changed, reloading.
+2023-07-14 09:36:12,990 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-14 09:36:13,123 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:37:38,478 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-14 09:37:40,611 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-15 03:03:34,548 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-15 03:03:34,566 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-15 03:03:34,584 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-15 03:03:39,434 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-15 03:03:39,551 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-15 03:21:44,620 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-15 03:21:44,741 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-15 04:10:49,509 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-15 04:10:49,626 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-15 04:49:17,293 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-15 04:49:17,410 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-15 04:49:27,620 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-15 04:49:27,637 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-15 04:49:27,655 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-15 05:16:05,176 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-15 05:16:05,292 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-15 05:16:11,269 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-15 05:16:15,955 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-15 05:16:19,376 (WARNING) - django.request - Unauthorized: /store/orders/
+2023-07-15 05:16:36,486 (INFO) - playground.views - Calling httpbin
+2023-07-15 05:17:52,744 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-15 05:17:52,761 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-15 05:17:52,778 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-16 03:10:20,150 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-16 03:10:20,273 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-16 03:10:36,426 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-16 03:10:36,446 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-16 03:10:36,463 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-16 03:13:51,572 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-16 03:14:08,349 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-16 03:14:08,372 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-16 03:14:08,393 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-16 03:14:13,667 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-16 03:14:28,122 (INFO) - django.utils.autoreload - /home/uddam/storefront/settings/common.py changed, reloading.
+2023-07-16 03:14:28,538 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-16 03:14:28,608 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-07-16 03:14:35,941 (INFO) - django.utils.autoreload - /home/uddam/storefront/settings/common.py changed, reloading.
+2023-07-16 03:14:36,402 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-16 03:16:07,220 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-17 05:23:23,098 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-17 05:23:31,747 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-17 05:23:31,772 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-17 05:23:31,793 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-17 06:05:00,226 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-17 06:05:21,245 (WARNING) - django.request - Method Not Allowed: /store/carts/
+2023-07-17 06:05:22,834 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-17 06:26:49,298 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-17 06:26:57,209 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-17 06:26:57,232 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-17 06:26:57,254 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-18 05:42:29,188 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-18 05:43:01,287 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-18 05:44:04,221 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-18 05:44:11,540 (WARNING) - django.request - Not Found: /favicon.ico
+2023-07-20 06:40:21,848 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-20 06:40:50,513 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-20 06:41:00,322 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-20 06:41:00,345 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-20 06:41:00,366 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-21 02:47:56,686 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 00:52:22,973 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 00:53:01,468 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 00:53:09,102 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-25 00:53:09,126 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-25 00:53:09,150 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-25 00:53:31,167 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 00:53:39,917 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-07-25 00:53:39,938 (WARNING) - django.request - Forbidden: /store/collections/
+2023-07-25 00:53:39,962 (WARNING) - django.request - Bad Request: /store/collections/
+2023-07-25 03:23:40,425 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 19:07:32,654 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-07-25 19:07:58,020 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader

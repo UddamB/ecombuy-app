@@ -1,0 +1,1 @@
+{"version":"2.2.8","commands":{"which":{"id":"which","description":"Show which plugin a command is in.","strict":false,"pluginName":"@oclif/plugin-which","pluginAlias":"@oclif/plugin-which","pluginType":"core","aliases":[],"examples":[{"description":"See which plugin the `help` command is in:","command":"<%= config.bin %> <%= command.id %> help"}],"flags":{},"args":[]}}}

@@ -1,0 +1,5 @@
+2023-07-25 17:35:39.706 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-25 17:35:39.707 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-25 17:35:39.707 [info] Test server listening.
+2023-07-25 17:35:39.707 [info] Python interpreter path: ./.virtualenvs/uddam-xWptzJbx/bin/python
+2023-07-25 17:35:41.149 [info] Starting Pylance language server.

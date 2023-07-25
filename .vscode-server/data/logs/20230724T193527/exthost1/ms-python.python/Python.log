@@ -1,0 +1,7 @@
+2023-07-24 19:35:30.287 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-07-24 19:35:30.287 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-07-24 19:35:30.287 [info] Test server listening.
+2023-07-24 19:35:30.308 [info] > ./newenv/bin/python -I ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/get_output_via_markers.py ./.vscode-server/extensions/ms-python.python-2023.12.0/pythonFiles/interpreterInfo.py
+2023-07-24 19:35:30.413 [info] Python interpreter path: ./newenv/bin/python
+2023-07-24 19:35:31.494 [info] Send text to terminal: source /home/uddam/newenv/bin/activate
+2023-07-24 19:35:32.064 [info] Starting Pylance language server.

@@ -1,0 +1,21 @@
+[package]
+name = "vsda"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[features]
+default = []
+wasm = ["getrandom/js", "wasm-bindgen"]
+
+[dependencies]
+base64 = "0.21.0"
+rand = { version = "0.8.5", features = ["std_rng"] }
+sha2 = "0.10"
+wasm-bindgen = { version = "0.2", optional = true }
+getrandom = { version = "0.2" }
+
+[profile.release]
+lto = true

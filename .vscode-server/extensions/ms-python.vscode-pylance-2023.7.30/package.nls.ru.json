@@ -1,0 +1,22 @@
+{
+    "ClientLoc.typeCheckingModeStatusItem.name": "Режим проверки типа Python",
+    "ClientLoc.typeCheckingModeStatusItem.text": "Проверка типов: {0}",
+    "ClientLoc.typeCheckingModeStatusItem.titleOff": "Переключиться в режим \"Выкл.\"",
+    "ClientLoc.typeCheckingModeStatusItem.titleOn": "Переключиться в режим \"Вкл.\"",
+    "ClientLoc.updateSettingsErrorMsgFormatted": "Не удалось обновить параметр \"{0}.{1}\".",
+    "Common.No": "Нет",
+    "Common.Yes": "Да",
+    "Common.reload": "Перезагрузить",
+    "Common.remindMeLater": "Напомнить позже",
+    "Insiders.installingPreRelease": "Установка предварительной сборки Pylance...",
+    "LanguageServer.settingsMigratedMessage": "Параметры, применимые к серверу Microsoft Language Server, скопированы в параметры Pylance. Подробные сведения см. в файлах settings.json.",
+    "LanguageServer.settingsMigrationError": "Не удалось перенести следующие параметры:",
+    "Refactoring.MoveSymbol.newFileDetail": "Введите путь или выберите файл назначения",
+    "Refactoring.MoveSymbol.newFileLabel": "Введите путь к файлу назначения...",
+    "Refactoring.MoveSymbol.openDialogOpenLabel": "Выбрать",
+    "Refactoring.MoveSymbol.openDialogTitle": "Выберите новый файл, чтобы переместить символ в...",
+    "Refactoring.MoveSymbol.progressBarTitle": "Переместить символ в...",
+    "Refactoring.MoveSymbol.quickPickPlaceHolder": "Поиск в файле назначения",
+    "Refactoring.MoveSymbol.quickPickTitle": "Выберите назначение для перемещения.",
+    "Refactoring.MoveSymbol.separatorText": "Файлы назначения"
+}

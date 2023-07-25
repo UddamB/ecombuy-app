@@ -1,0 +1,23 @@
+2023-07-25 14:41:15.644 [info] 
+
+
+
+
+2023-07-25 14:41:15.664 [info] Extension host agent started.
+2023-07-25 14:41:15.764 [info] [127.0.0.1][971f9f19][ManagementConnection] New connection established.
+2023-07-25 14:41:16.318 [info] [127.0.0.1][d83fc517][ExtensionHostConnection] New connection established.
+2023-07-25 14:41:16.322 [info] [127.0.0.1][d83fc517][ExtensionHostConnection] <116> Launched Extension Host Process.
+2023-07-25 15:25:53.953 [info] [127.0.0.1][cdc6f50d][ManagementConnection] New connection established.
+2023-07-25 15:25:54.300 [info] [127.0.0.1][8c52ee3a][ExtensionHostConnection] New connection established.
+2023-07-25 15:25:54.303 [info] [127.0.0.1][8c52ee3a][ExtensionHostConnection] <1563> Launched Extension Host Process.
+2023-07-25 15:30:09.047 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-07-25 15:30:09.048 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-07-25 17:07:31.502 [info] [127.0.0.1][8c52ee3a][ExtensionHostConnection] The client has reconnected.
+2023-07-25 17:07:31.683 [info] [127.0.0.1][cdc6f50d][ManagementConnection] The client has reconnected.
+2023-07-25 17:07:31.895 [info] [127.0.0.1][971f9f19][ManagementConnection] The client has reconnected.
+2023-07-25 17:07:32.047 [info] [127.0.0.1][d83fc517][ExtensionHostConnection] The client has reconnected.
+2023-07-25 17:15:57.027 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2023-07-25 17:16:30.060 [info] [127.0.0.1][971f9f19][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-25 17:16:30.142 [info] [127.0.0.1][d83fc517][ExtensionHostConnection] <116> Extension Host Process exited with code: 0, signal: null.
+2023-07-25 17:16:31.069 [info] [127.0.0.1][cdc6f50d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-25 17:16:31.167 [info] [127.0.0.1][8c52ee3a][ExtensionHostConnection] <1563> Extension Host Process exited with code: 0, signal: null.
