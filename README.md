@@ -1,2 +1,2 @@
 # ecombuy-app
-A django web app template for creating an ecommerce store
+A django web app template for creating an online ecommerce store
