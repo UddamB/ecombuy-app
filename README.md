@@ -82,7 +82,7 @@ To deploy this project run
   python manage.py runserver
 ```
 
-App is deployed externally via Azure and can be accessed through ecombuy.azurewebsites.net 
+App is deployed externally via Azure and can be accessed through [ecombuy.azurewebsites.net ](https://ecombuy.azurewebsites.net/)
 
 
 ## Endpoint Reference
