@@ -23,6 +23,7 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 ## Screenshots
 
 [![ecombuy.jpg](https://i.postimg.cc/8kF3VQ3R/ecombuy.jpg)](https://postimg.cc/K42QnVmj)
+![Admin _ Django site admin - Google Chrome 2023-07-30 17-33-28](https://github.com/UddamB/ecombuy-app/assets/89602764/91b4d88c-8117-42ae-9fc1-0e2d4bfb8c57)
 
 
 ## Features
