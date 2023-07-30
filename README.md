@@ -1,4 +1,4 @@
-
+![Admin _ Django site admin - Google Chrome 2023-07-30 17-35-58](https://github.com/UddamB/ecombuy-app/assets/89602764/c42d9e58-3b41-42af-ad18-799285cc19a2)
 # Ecombuy App 
 
 
@@ -23,8 +23,6 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 ## Screenshots
 
 [![ecombuy.jpg](https://i.postimg.cc/8kF3VQ3R/ecombuy.jpg)](https://postimg.cc/K42QnVmj)
-![Admin _ Django site admin - Google Chrome 2023-07-30 17-33-28](https://github.com/UddamB/ecombuy-app/assets/89602764/91b4d88c-8117-42ae-9fc1-0e2d4bfb8c57)
-
 
 ## Features
 
@@ -33,6 +31,10 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 - Cart
 - Image Uploads
 - SMTP Email Management
+
+
+## Demo
+![Admin _ Django site admin - Google Chrome 2023-07-30 17-35-58](https://github.com/UddamB/ecombuy-app/assets/89602764/f816c7c9-d7ba-4197-8521-df95d14a588f)
 
 
 ## Run Locally
