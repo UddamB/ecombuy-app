@@ -1,4 +1,3 @@
-![Admin _ Django site admin - Google Chrome 2023-07-30 17-35-58](https://github.com/UddamB/ecombuy-app/assets/89602764/c42d9e58-3b41-42af-ad18-799285cc19a2)
 # Ecombuy App 
 
 
