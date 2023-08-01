@@ -33,7 +33,7 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 
 
 ## Demo
-https://github.com/UddamB/ecombuy-app/assets/89602764/d8ad9acb-bf8b-4198-a745-c48fc6c1e51f
+![admin-django-site-admin-google-chrome-2023-08-01-12-59-36_SWujeYM3 (1)](https://github.com/UddamB/ecombuy-app/assets/89602764/8f451fc1-4a9b-4600-bd0f-32304f97dd5e)
 
 
 
