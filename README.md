@@ -33,7 +33,8 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 
 
 ## Demo
-![Admin _ Django site admin - Google Chrome 2023-07-30 17-35-58](https://github.com/UddamB/ecombuy-app/assets/89602764/f816c7c9-d7ba-4197-8521-df95d14a588f)
+https://github.com/UddamB/ecombuy-app/assets/89602764/d8ad9acb-bf8b-4198-a745-c48fc6c1e51f
+
 
 
 ## Run Locally
