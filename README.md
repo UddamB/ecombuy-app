@@ -42,7 +42,7 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 Clone the project
 
 ```bash
-  git clone https://github.com/Sincity231/ecombuy
+  git clone https://github.com/UddamB/ecombuy
 ```
 
 Go to the project directory
