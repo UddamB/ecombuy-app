@@ -20,8 +20,7 @@ Unfortunately, Celery no longer supports Windows so I used WSL (Ubuntu) to run t
 
 
 ## Screenshots
-
-[![ecombuy.jpg](https://i.postimg.cc/8kF3VQ3R/ecombuy.jpg)](https://postimg.cc/K42QnVmj)
+![ecombuy!!](https://github.com/UddamB/ecombuy-app/assets/89602764/0090e053-fcd2-475c-8937-ac7b34e8508b)
 
 ## Features
 
